@@ -1,6 +1,17 @@
 ---
 layout: post
 title: Example content
+category:
+  - test
+  - jekyll
+  - old
+  - foo
+  - bar
+tags:
+  - lorem
+  - игра
+  - демо
+  - jekyll
 ---
 
 
