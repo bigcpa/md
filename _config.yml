@@ -31,7 +31,7 @@ nav:
     - '/'
   Blog:           
     - '/blog/'
-    - { Categories: '/blog/categories/' }
+    - { Тестовая Рубрика: '/blog/categories/#test' }
     - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
