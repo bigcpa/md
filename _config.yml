@@ -32,6 +32,7 @@ nav:
   Blog:           
     - '/blog'
     - { Тестовая Рубрика: '/blog/categories/#test' }
+    - { Linux: '/blog/cat' }
     - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
