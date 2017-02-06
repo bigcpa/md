@@ -2,11 +2,8 @@
 layout: post
 title: Example content
 category:
-  - test
+  - linux
   - jekyll
-  - old
-  - foo
-  - bar
 tags:
   - lorem
   - игра
