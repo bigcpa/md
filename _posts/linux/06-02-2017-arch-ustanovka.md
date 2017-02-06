@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Установка Arch Linux
-category: 
-  - linux
+category: linux
 tags:
   - linux
-author: Alex Creio
+author:
+  - name
 comments: true
 ---
+
 
 Привет Мир!
