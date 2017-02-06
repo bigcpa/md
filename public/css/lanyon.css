@@ -148,7 +148,6 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   left: 0;
   width: 14rem;
-  visibility: hidden;
   overflow-y: auto;
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
