@@ -2,7 +2,7 @@
 layout: post
 title: Introducing Lanyon Лорем ипсум
 permalink: intro
-category: test
+category: linux
 tags:
   - утро завтра
   - jekyll
