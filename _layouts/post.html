@@ -6,10 +6,8 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   
   <div class="post-date">
-        <time datetime="{% include date.html date=post.date %}">
           <i class="fa fa-calendar" aria-hidden="true"></i> {% include date.html date=post.date %} | 
-        </time>
-        {% for categories in post.categories %}
+        {% for categories in page.categories %}
             <i class="fa fa-folder-o" aria-hidden="true"></i> <a class="tag-box" href="{{categories}}/">{{ categories }}</a> | 
         {% endfor %}
         {% if site.disqus_shortname %}
