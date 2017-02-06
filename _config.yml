@@ -44,3 +44,7 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 disqus_shortname: bigcpa
+
+sass:
+  style: compressed
+  sass_dir: _scss
