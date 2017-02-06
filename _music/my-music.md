@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Моя музыка
+title: my-music
 category:
 tags:
 comment: true
