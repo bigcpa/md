@@ -28,11 +28,11 @@ permalink: '/blog/:title/'
 # Navigation (2nd level links supported)
 nav:
   Home:           
-    - '/blog'
+    - '/lp/'
   Blog:           
-    - '/blog'
+    - '/blog/'
     - { Тестовая Рубрика: '/blog/categories/#test' }
-    - { Linux: '/blog/cat' }
+    - { Linux: '/blog/cat/' }
     - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
