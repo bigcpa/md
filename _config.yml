@@ -24,7 +24,7 @@ excerpt_separator: "<!-- more -->"
 # Permalinks
 paginate: 2
 paginate_path: '/blog/page:num'
-permalink: '/blog/:title/'
+permalink: '/blog/:category:title/'
 
 # Navigation (2nd level links supported)
 nav:
