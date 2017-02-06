@@ -16,6 +16,7 @@ version:             1.0.0
 
 gems:
   - jekyll-paginate
+  - jekyll-language-plugin
 markdown: kramdown
 
 excerpt_separator: "<!-- more -->"
@@ -23,7 +24,7 @@ excerpt_separator: "<!-- more -->"
 # Permalinks
 paginate: 2
 paginate_path: '/blog/page:num'
-permalink: '/blog/:categories/:title/'
+permalink: '/blog/:title/'
 
 # Navigation (2nd level links supported)
 nav:
