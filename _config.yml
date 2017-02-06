@@ -18,6 +18,8 @@ disqus_shortname: bigcpa
 
 gems:
   - jekyll-paginate
+  - jekyll-sitemap
+  
 markdown: kramdown
 
 excerpt_separator: "<!-- more -->"
