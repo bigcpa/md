@@ -42,4 +42,4 @@ nav:
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
-disqus_short_name: 'bigcpa'
+disqus_shortname: bigcpa
