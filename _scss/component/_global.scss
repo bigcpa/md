@@ -1,18 +1,25 @@
+a {
+    -webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+       -o-transition: all .3s ease;
+          transition: all .3s ease;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+
 
 .content {
     a {
         color: #4285f4;
         text-decoration: none;
         border-bottom: 1px solid #0055cc;
-        -webkit-transition: all .4s ease;
-         -moz-transition: all .4s ease;
-           -o-transition: all .4s ease;
-              transition: all .4s ease;
     }
     a:hover,
     a:focus {
         color: #1565c0;
-        text-decoration: none;
         border-bottom: 2px solid #0055cc;
     }
 }
