@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Introducing Lanyon Лорем ипсум
-permalink: intro
-category: test
+title: Умтановка Arch Linux
+category: linux
 tags:
-  - утро завтра
-  - jekyll
+  - linux
 author: Alex Creio
 comments: true
 ---
