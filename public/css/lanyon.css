@@ -196,6 +196,7 @@ a.sidebar-nav-item:focus {
   text-decoration: none;
   background-color: rgba(255,255,255,.1);
   border-color: transparent;
+  border-right: 5px solid #4285f4;
 }
 
 @media (min-width: 48em) {
