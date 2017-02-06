@@ -30,7 +30,7 @@ nav:
   Home:           
     - '/'
   Blog:           
-    - '/blog/'
+    - '/blog'
     - { Тестовая Рубрика: '/blog/categories/#test' }
     - { Tags: '/blog/tags/' }
   About:          
