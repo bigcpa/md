@@ -201,6 +201,12 @@ a.sidebar-nav-item:focus {
   }
 }
 
+@media (max-width: 48em) {
+  .sidebar {
+    visibility: hidden;
+  }
+}
+
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
 .sidebar-checkbox {
   position: absolute;
@@ -262,6 +268,12 @@ a.sidebar-nav-item:focus {
 @media print {
   .sidebar-toggle {
     display: none;
+  }
+}
+
+@media (max-width: 48em) {
+  .sidebar-toggle {
+    display: block;
   }
 }
 
