@@ -25,4 +25,7 @@ a:focus {
 .post-date {
     font-size: .65rem;
     color: $lightgrey;
+    a {
+        border: none;
+    }
 }
