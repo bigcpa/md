@@ -1,5 +1,5 @@
 # Setup
-title:               '<i class="fa fa-fire" aria-hidden="true"></i> Blog | BIGCPA</a>'
+title:               'Blog | BIGCPA'
 tagline:             'Money Making'
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 http://ancient-emu.cloudvent.net
@@ -41,3 +41,5 @@ nav:
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
+
+disqus_short_name: 'bigcpa'
