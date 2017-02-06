@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Умтановка Arch Linux
-category: linux
+title: Установка Arch Linux
+category: 
+  - linux
 tags:
   - linux
 author: Alex Creio
