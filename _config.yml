@@ -28,7 +28,7 @@ permalink: '/blog/:title'
 # Navigation (2nd level links supported)
 nav:
   Home:           
-    - '/'
+    - '/blog'
   Blog:           
     - '/blog'
     - { Тестовая Рубрика: '/blog/categories/#test' }
