@@ -33,8 +33,8 @@ nav:
     - '/lp/'
   Blog:           
     - '/blog/'
-    - { Тестовая Рубрика: '/blog/categories/#test' }
-    - { Linux: '/blog/cat/' }
+    - { Тестовая Рубрика: '/blog/category/#test' }
+    - { Linux: '/blog/linux/' }
     - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
@@ -43,7 +43,7 @@ nav:
     
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
+category_page: '/blog/category/'
 
 sass:
   style: compressed
