@@ -80,17 +80,18 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 32rem;
   }
 }
+@media (min-width: 48em) {
+  .container {
+    margin-left: 14rem;
+  }
+}
 @media (min-width: 56em) {
   .container {
     max-width: 38rem;
   }
 }
 
-@media (max-width: 48em) {
-  .container {
-    margin-left: 14rem;
-  }
-}
+
 
 /*
  * Masthead
