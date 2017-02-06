@@ -9,8 +9,6 @@ a:focus {
     text-decoration: none;
 }
 
-
-
 .content {
     a {
         color: $accent;
@@ -24,3 +22,7 @@ a:focus {
     }
 }
 
+.post-date {
+    font-size: .75rem;
+    color: $lightgrey;
+}
