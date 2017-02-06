@@ -6,6 +6,9 @@ category: test
 tags:
   - утро завтра
   - jekyll
+
+author: Alex Creio
+comments: true
 ---
 
 
