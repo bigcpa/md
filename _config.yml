@@ -16,7 +16,6 @@ version:             1.0.0
 
 gems:
   - jekyll-paginate
-  - jekyll-language-plugin
 markdown: kramdown
 
 excerpt_separator: "<!-- more -->"
