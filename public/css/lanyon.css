@@ -215,7 +215,7 @@ a.sidebar-nav-item:focus {
   position: absolute;
   top:  .8rem;
   left: 1rem;
-  display: block;
+  display: none;
   padding: .25rem .75rem;
   color: #505050;
   background-color: #fff;
