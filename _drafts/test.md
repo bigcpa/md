@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Test
-permalink: intro
-category: test
+permalink:
+category: jekyll
 tags:
-  - утро завтра
   - jekyll
-author: Alex Creio
+author:
+  - name
 comments: true
 ---
+
+
+test
