@@ -23,7 +23,7 @@ excerpt_separator: "<!-- more -->"
 # Permalinks
 paginate: 2
 paginate_path: '/blog/page:num'
-permalink: '/blog/:title'
+permalink: '/blog/:title/'
 
 # Navigation (2nd level links supported)
 nav:
@@ -32,7 +32,7 @@ nav:
   Blog:           
     - '/blog'
     - { Тестовая Рубрика: '/blog/categories/#test' }
-    #- { Linux: '/blog/cat' }
+    - { Linux: '/blog/cat' }
     - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
