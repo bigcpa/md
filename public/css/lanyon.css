@@ -153,6 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
+  z-index: 1;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
