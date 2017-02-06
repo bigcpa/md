@@ -314,13 +314,6 @@ a.sidebar-nav-item:focus {
       -ms-transform: translateX(14rem);
           transform: translateX(14rem);
 }
-@media (max-width: 48em) {
-  #sidebar-checkbox:checked ~ .sidebar {
-  -webkit-transform: translateX(14rem);
-      -ms-transform: translateX(14rem);
-          transform: translateX(14rem);
-  }
-}
 
 
 /*
