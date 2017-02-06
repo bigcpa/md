@@ -69,6 +69,7 @@ body {
 a {
   color: #268bd2;
   text-decoration: none;
+  border-bottom: 1px solid #0069ff;
 }
 a strong {
   color: inherit;
@@ -76,7 +77,8 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+  color: #0069ff;
+  border-bottom: 2px solid #0055cc;
 }
 
 /* Headings */
