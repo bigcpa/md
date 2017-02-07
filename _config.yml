@@ -36,9 +36,9 @@ defaults:
       layout: member
   - scope:
       path: ""
-      type: tagpages
+      type: category
     values:
-      layout: tagpages
+      layout: pages
 
 # Navigation (2nd level links supported)
 nav:
