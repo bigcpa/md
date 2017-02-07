@@ -51,6 +51,7 @@ a:focus {
     text-decoration: none;
     background: $accent;
     color: $white;
+    border: none;
   }
   transition: all .1s ease-in-out;
 }
