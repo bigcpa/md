@@ -32,18 +32,6 @@ defaults:
       type: staff
     values:
       layout: member
-      
-gems:
-  - jekyll-paginate
-  
-markdown: kramdown
-
-excerpt_separator: "<!-- more -->"
-
-# Permalinks
-paginate: 2
-paginate_path: '/blog/page:num/'
-permalink: '/blog/:title/'
 
 # Navigation (2nd level links supported)
 nav:
@@ -59,7 +47,19 @@ nav:
     - '/about/'
   Github Project: 
     - 'https://codinfox.github.io/'
-    
+      
+gems:
+  - jekyll-paginate
+  
+markdown: kramdown
+
+excerpt_separator: "<!-- more -->"
+
+# Permalinks
+paginate: 2
+paginate_path: '/blog/page:num/'
+permalink: '/blog/:title/'
+
 sass:
   style: compressed
   sass_dir: _scss
