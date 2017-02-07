@@ -25,7 +25,7 @@ sitemap:
     <!-- Archive -->
     {% for categories in post.categories %}
     <url>
-        <loc>{{ categories }}</loc>
+        <loc>{{ site.url }}/blog/{{ category | first | slugize }}/</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
