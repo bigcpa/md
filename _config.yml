@@ -40,6 +40,8 @@ defaults:
 nav:
     Партнерские программы:
         - '/blog/partner/'
+    Linux: 
+        - '/blog/linux/'
     Продвижение сайта: 
         - '/blog/seo/'
     Jekyll уроки:
