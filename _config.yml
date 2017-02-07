@@ -24,6 +24,9 @@ collections:
   staff:
     name: Member Staff
     output: true
+  tagpages:
+        output: true
+        permalink: /tag/:title
 
 defaults:
   -
@@ -32,6 +35,11 @@ defaults:
       type: staff
     values:
       layout: member
+    scope:
+      path: ""
+      type: tagpages
+    values:
+      layout: default
 
 # Navigation (2nd level links supported)
 nav:
