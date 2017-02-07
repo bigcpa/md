@@ -9,7 +9,7 @@ layout: default
     </time>
     
     <i class="fa fa-folder-o" aria-hidden="true"></i> 
-    {% for categories in staff.categories %}
+    {% for categories in site.staff %}
         <a class="tag-box" href="{{categories}}/">{{ categories }}</a> | 
     {% endfor %}
     
