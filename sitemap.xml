@@ -23,5 +23,13 @@ sitemap:
     {% endfor %}
 
     <!-- Archive -->
+    {% for tag in site.categories %}
+    <url>
+        <loc>{{ tag[0] | slugify }}</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
 
 </urlset>
