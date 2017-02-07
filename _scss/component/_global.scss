@@ -47,7 +47,7 @@ a:focus {
     font-family: FontAwesome;
     padding-right: .5em;
   }
-  &:hover {
+  &:hover, &:focus {
     text-decoration: none;
     background: $accent !important;
     color: $white !important;
