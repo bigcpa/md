@@ -20,9 +20,6 @@ category_page: '/blog/category/'
 collections:
   category:
     output: true
-  linux:
-    name: Категория linux
-    output: true
   staff:
     name: Member Staff
     output: true
@@ -33,6 +30,11 @@ defaults:
       type: staff
     values:
       layout: member
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: category
 
 # Navigation (2nd level links supported)
 nav:
