@@ -35,11 +35,6 @@ defaults:
       layout: default
   - scope:
       path: ""
-      type: category
-    values:
-      layout: pages
-  - scope:
-      path: ""
       type: staff
     values:
       layout: member
