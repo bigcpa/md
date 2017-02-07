@@ -2,8 +2,14 @@
 layout: default
 ---
 
-<h1>{{ page.name }} - {{ page.position }}</h1>
+<h1>Записи из категории: {{ page.name }}</h1>
 
-<img src="{{ page.profile_photo_path }}" alt="{{ page.name }}">
-<p>Twitter Handle: {{ page.twitter_handle }}</p>
-{{ page.content }}
+<img src="{{ page.category_photo_path }}" alt="{{ page.name }}">
+
+<ul>
+  {% for post in site.categories.{{ page.slug }} %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
