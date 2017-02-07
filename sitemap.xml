@@ -23,7 +23,7 @@ sitemap:
     {% endfor %}
 
     <!-- Archive -->
-    {% for categories in post.categories %}
+    {% for categories in site.categories %}
     <url>
         <loc>{{ site.url }}/blog/{{ categories }}/</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
