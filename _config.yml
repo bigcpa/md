@@ -25,8 +25,8 @@ collections:
     name: Member Staff
     output: true
   tagpages:
-        output: true
-        permalink: /blog/tag/:title
+    output: true
+    permalink: /blog/tag/:title
 
 defaults:
   - scope:
