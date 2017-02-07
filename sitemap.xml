@@ -22,7 +22,7 @@ sitemap:
     </url>
     {% endfor %}
 
-    <!-- Archive -->
+    <!-- Category -->
     {% for tag in site.categories %}
     <url>
         <loc>{{ site.url }}/blog/{{ tag[0] | slugify }}/</loc>
