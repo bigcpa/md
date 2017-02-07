@@ -53,6 +53,14 @@ collections:
   staff:
     output: true
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "staff"
+    values:
+      layout: "staff-member"
+
 sass:
   style: compressed
   sass_dir: _scss
