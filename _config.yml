@@ -22,7 +22,7 @@ category_page: '/blog/category/'
 
 collections:
   staff:
-    name: Люди Staff
+    name: Member Staff
     output: true
 
 defaults:
