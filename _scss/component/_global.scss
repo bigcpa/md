@@ -54,6 +54,9 @@ a:focus {
     border-bottom: none !important;
   }
   transition: all .1s ease-in-out;
+  span {
+      font-size: 70%;
+  }
 }
 
 .tags-expo {
