@@ -25,6 +25,7 @@ collections:
     name: Моя Музыка
     output: true
   staff:
+    name: Люди Staff
     output: true
 
 defaults:
