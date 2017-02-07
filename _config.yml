@@ -16,6 +16,25 @@ version:             1.0.0
 
 disqus_shortname: bigcpa
 
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/category/'
+
+collections:
+  music:
+    name: Моя Музыка
+    output: true
+  staff:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: "/blog"
+      type: "staff"
+    values:
+      layout: "staff-member"
+      
 gems:
   - jekyll-paginate
   
@@ -42,25 +61,6 @@ nav:
   Github Project: 
     - 'https://codinfox.github.io/'
     
-# Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/category/'
-
-collections:
-  music:
-    name: Моя Музыка
-    output: true
-  staff:
-    output: true
-
-defaults:
-  -
-    scope:
-      path: "blog/"
-      type: "staff"
-    values:
-      layout: "staff-member"
-
 sass:
   style: compressed
   sass_dir: _scss
