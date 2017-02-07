@@ -36,11 +36,6 @@ title: Blog
 </div>
 
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">Вперед</a>
-  {% else %}
-    <span class="pagination-item older">Вперед</span>
-  {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
       <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">Назад</a>
@@ -49,6 +44,11 @@ title: Blog
     {% endif %}
   {% else %}
     <span class="pagination-item newer">Назад</span>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">Вперед</a>
+  {% else %}
+    <span class="pagination-item older">Вперед</span>
   {% endif %}
 </div>
 
