@@ -27,29 +27,30 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: staff
-    values:
-      layout: member
-  - scope:
-      path: ""
       type: category
     values:
       layout: category
+  - scope:
+      path: ""
+      type: staff
+    values:
+      layout: member
 
 # Navigation (2nd level links supported)
 nav:
-  Категории:           
-    - '/blog/category/'
-    - { Тестовая Рубрика: '/blog/category/#test' }
-    - { Member: '/staff/' }
-    - { Linux: '/blog/linux/' }
-    - { Tags: '/blog/tags/' }
-  О блоге:          
-    - '/about/'
-  Исходный код блога: 
-    - 'https://codinfox.github.io/'
-
-version: 1.0.0
+    Партнерские программы:
+        - '/blog/partner/'
+    Продвижение сайта: 
+        - '/blog/seo/'
+    Jekyll уроки:
+        - '/blog/jekyll/'
+    # Категории:           
+    #     - '/blog/category/'
+    #     - { Tags: '/blog/tags/' }
+    О блоге:          
+        - '/about/'
+    Исходный код блога: 
+        - 'https://codinfox.github.io/'
       
 gems:
   - jekyll-paginate
