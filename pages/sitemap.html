@@ -4,19 +4,6 @@ title: Карта Блога по категориям
 permalink: /sitemap.html
 ---
 
-{% for cat_name in page.top-categories %}
-    {% include category.html category=cat_name %}
-{% endfor %}   
-
-
-{% for cat in site.categories %}
-    {% capture cat_name %}{{ cat | first }}{% endcapture %}
-        
-    {% unless page.top-categories contains cat_name %}
-        {% include category.html category=cat_name %}
-    {% endunless %}                      
-{% endfor %}  
-
 <div class="tags-expo">
   <div class="tags-expo-list">
     {% assign tags_list = site.categories %}  
