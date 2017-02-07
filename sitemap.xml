@@ -23,13 +23,5 @@ sitemap:
     {% endfor %}
 
     <!-- Archive -->
-    {% for categories in site.categories %}
-    <url>
-        <loc>{{ site.url }}/blog/{{ categories }}/</loc>
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    {% endfor %}
 
 </urlset>
