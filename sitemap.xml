@@ -5,17 +5,29 @@ sitemap:
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>{{ site.url }}/blog/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Posts -->
     {% for post in site.posts %}
     <url>
-        <loc>{{site.production_url}}{{ post.url | remove: 'index.html' }}</loc>
+        <loc>{{ site.url }}{{ post.url }}</loc>
+        <lastmod>{% if post.updated == null %}{{ post.date | date: '%Y-%m-%d' }}{% else %}{{ post.updated | date: '%Y-%m-%d' }}{% endif %}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
     </url>
     {% endfor %}
 
-    {% for page in site.pages %}
-    {% if page.sitemap_exclude != 'y' %}
+    <!-- Archive -->
     <url>
-        <loc>{{site.production_url}}{{ page.url | remove: 'index.html' }}</loc>
+        <loc>{{ site.url }}/sitemap.html</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
     </url>
-    {% endif %}
-    {% endfor %}
+
 </urlset>
