@@ -16,7 +16,7 @@ title: Blog
         <time datetime="{% include date.html date=post.date %}">
           <i class="fa fa-calendar" aria-hidden="true"></i> {% include date.html date=post.date %} | 
         </time>
-        {% assign tags_list = site.categories %}  
+        {% assign tags_list = post.categories %}  
             {% if tags_list.first[0] == null %}
                 {% for tag in tags_list %} 
                     <a class="tag-box" href="/blog/{{ tag }}/">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a>
