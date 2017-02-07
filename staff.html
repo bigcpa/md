@@ -1,15 +1,10 @@
 ---
 layout: default
 ---
-<ul class="staff-members">
-  {% for member in site.staff %}
-    <li class="staff-member">
-      <img src="{{ member.profile_photo_path }}" alt="{{ member.name }}">
-      <p>
-        <a href="{{ member.url }}">
-          {{ member.name }} - <strong>{{ member.position }}</strong>
-        </a>
-      </p>
-    </li>
-  {% endfor %}
-</ul>
+
+{% for member in site.staff %}
+<a href="{{ member.url }}">
+  {{ member.name }} - <strong>{{ member.position }}</strong>
+</a>
+<img src="{{ member.profile_photo_path }}" alt="{{ member.name }}">
+{% endfor %}
