@@ -42,16 +42,16 @@ a:focus {
   border-radius: 4px;
   color: $accent;
   font-size: 90%;
-  &:before {
+  a:before {
     content: "\f02b";
     font-family: FontAwesome;
     padding-right: .5em;
   }
-  &:hover {
+  a:hover {
     text-decoration: none;
     background: $accent;
     color: $white;
-    border: none;
+    border-bottom: none;
   }
   transition: all .1s ease-in-out;
 }
