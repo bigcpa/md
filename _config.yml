@@ -36,7 +36,8 @@ defaults:
 
 # Navigation (2nd level links supported)
 nav:
-  Главная:
+  Категории:           
+    - '/blog/category/'
     - { Тестовая Рубрика: '/blog/category/#test' }
     - { Member: '/staff/' }
     - { Linux: '/blog/linux/' }
