@@ -11,9 +11,6 @@ author:
   url:               https://twitter.com/mdo
   email:             markdotto@gmail.com
 
-# Custom vars
-version:             1.0.0
-
 disqus_shortname: bigcpa
 
 # Where are tags and categories displayed
@@ -49,6 +46,8 @@ nav:
     - '/about/'
   Исходный код блога: 
     - 'https://codinfox.github.io/'
+
+version:             1.0.0
       
 gems:
   - jekyll-paginate
