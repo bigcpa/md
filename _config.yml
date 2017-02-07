@@ -33,7 +33,7 @@ defaults:
       path: ""
       type: blog
     values:
-      layout: pages
+      layout: default
   - scope:
       path: ""
       type: category
