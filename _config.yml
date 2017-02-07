@@ -27,7 +27,7 @@ collections:
   staff:
     name: Люди Staff
     output: true
-    permalink: /staff
+    #permalink: /staff
 
 defaults:
   -
