@@ -51,6 +51,8 @@ nav:
     #     - { Tags: '/blog/tags/' }
     О блоге:          
         - '/about/'
+    Карта блога:          
+        - '/sitemap.html'
     Исходный код блога: 
         - 'https://codinfox.github.io/'
       
