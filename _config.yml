@@ -27,11 +27,12 @@ collections:
   staff:
     name: Люди Staff
     output: true
+    permalink: 
 
 defaults:
   -
     scope:
-      path: "/blog"
+      path: ""
       type: "staff"
     values:
       layout: "staff-member"
