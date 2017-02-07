@@ -20,9 +20,6 @@ category_page: '/blog/category/'
 collections:
   category:
     output: true
-  staff:
-    name: Member Staff
-    output: true
 
 defaults:
   - scope:
@@ -30,11 +27,6 @@ defaults:
       type: category
     values:
       layout: category
-  - scope:
-      path: ""
-      type: staff
-    values:
-      layout: member
 
 # Navigation (2nd level links supported)
 nav:
