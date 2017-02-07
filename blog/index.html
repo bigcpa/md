@@ -16,7 +16,7 @@ title: Blog
         <time datetime="{% include date.html date=post.date %}">
           <i class="fa fa-calendar" aria-hidden="true"></i> {% include date.html date=post.date %} | 
         </time>
-        {% for tag in post.categories %}
+        {% for tag in page.categories %}
             <i class="fa fa-folder-o" aria-hidden="true"></i> <a href="{{ tag[0] | slugify }}/">{{ tag[0] }}</a> | 
         {% endfor %}
         
