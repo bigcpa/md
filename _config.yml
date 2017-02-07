@@ -21,9 +21,10 @@ tag_page: '/blog/tags/'
 category_page: '/blog/category/'
 
 collections:
-  blog:
-    output: true
   category:
+    output: true
+  linux:
+    name: Категория linux
     output: true
   staff:
     name: Member Staff
