@@ -4,7 +4,7 @@ title: Introducing Lanyon Лорем ипсум
 permalink: intro
 category: linux
 tags:
-  - утро завтра
+  - seo
   - jekyll
 author: Alex Creio
 comments: true
