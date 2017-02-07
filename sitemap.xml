@@ -23,11 +23,13 @@ sitemap:
     {% endfor %}
 
     <!-- Archive -->
+    {% for categories in post.categories %}
     <url>
-        <loc>{% assign categories = post.categories %}</loc>
+        <loc>{{ categories }}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
+    {% endfor %}
 
 </urlset>
