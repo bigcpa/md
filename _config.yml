@@ -40,7 +40,7 @@ nav:
   Blog:           
     - '/blog/'
     - { Тестовая Рубрика: '/blog/category/#test' }
-        { Member: '/staff/' }
+    - { Member: '/staff/' }
     - { Linux: '/blog/linux/' }
     - { Tags: '/blog/tags/' }
   About:          
