@@ -6,17 +6,13 @@ layout: default
 
 <img src="{{ page.category_photo_path }}" alt="{{ page.name }}">
 
-<div class="tags-expo-section">
-    <ul class="tags-expo-posts">
-      {% for post in site.categories.[page.slug] %}
-        {% if post.url %}
-        <a class="post-title" href="{{ post.url }}">
-            <li>
-                {{ post.title }}
-                <small class="post-date">{% include date.html date=post.date %}</small>
-            </li>
-        </a>
-        {% endif %}
-      {% endfor %}
-    </ul>
-</div>
+<ul>
+  {% for post in site.categories.[page.slug] %}
+    {% if post.url %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a> 
+            <small class="post-date">{% include date.html date=post.date %}</small>
+        </li>
+    {% endif %}
+  {% endfor %}
+</ul>
