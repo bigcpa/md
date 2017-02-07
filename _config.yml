@@ -31,6 +31,8 @@ defaults:
 
 # Navigation (2nd level links supported)
 nav:
+    Главнвя:
+        - '/blog/'
     Партнерские программы:
         - '/blog/partner/'
     Linux: 
@@ -46,8 +48,6 @@ nav:
         - '/about/'
     Карта блога:          
         - '/blog/category/'
-    Исходный код блога: 
-        - 'https://codinfox.github.io/'
       
 gems:
   - jekyll-paginate
