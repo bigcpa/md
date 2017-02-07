@@ -3,7 +3,6 @@ layout: post
 title: Introducing Lanyon Лорем ипсум
 permalink: /blog/intro/
 category: seo
-tags:
 author:
   - name
 comments: true
