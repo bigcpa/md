@@ -47,15 +47,18 @@ a:focus {
     font-family: FontAwesome;
     padding-right: .5em;
   }
-  &:hover, &:focus {
+  &:hover {
     text-decoration: none;
     background: $accent !important;
     color: $white !important;
     border-bottom: none !important;
   }
+  &:focus {
+    border-bottom: none !important;
+  }
   transition: all .1s ease-in-out;
   span {
-      font-size: 70%;
+      font-size: 75%;
   }
 }
 
