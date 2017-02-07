@@ -32,9 +32,9 @@ defaults:
   -
     scope:
       path: ""
-      type: 
+      type: staff
     values:
-      layout:
+      layout: staff-member
       
 gems:
   - jekyll-paginate
