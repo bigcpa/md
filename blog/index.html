@@ -17,8 +17,8 @@ title: Blog
           <i class="fa fa-calendar" aria-hidden="true"></i> {% include date.html date=post.date %} | 
         </time>
         {% for cat in site.categories %}
-    {% capture cat_name %}{{ cat | first }}{% endcapture %}
-            <i class="fa fa-folder-o" aria-hidden="true"></i> <a href="{{ include.category | remove:' ' }}/">{{ cat_name }}</a> | 
+            {% capture cat_name %}{{ cat | first }}{% endcapture %}
+            <i class="fa fa-folder-o" aria-hidden="true"></i> <a href="{{categories}}/">{{ cat_name }}</a> | 
         {% endfor %}
         
         {% if site.disqus_shortname %}
