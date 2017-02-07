@@ -2,10 +2,8 @@
 layout: post
 title: Introducing Lanyon Лорем ипсум
 permalink: intro
-category: linux
+category: seo
 tags:
-  - seo
-  - jekyll
 author: Alex Creio
 comments: true
 ---
