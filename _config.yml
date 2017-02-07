@@ -29,13 +29,12 @@ collections:
         permalink: /tag/:title
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: staff
     values:
       layout: member
-    scope:
+  - scope:
       path: ""
       type: tagpages
     values:
