@@ -5,13 +5,13 @@ layout: default
 <h1>{{ page.name }} - {{ page.position }}</h1>
 <div class="post-date">
     <time datetime="{% include date.html date=page.date %}">
-      <i class="fa fa-calendar" aria-hidden="true"></i> {% include date.html date=page.date %}
-    </time> | 
+      <i class="fa fa-calendar" aria-hidden="true"></i> {% include date.html date=page.date %} | 
+    </time>
     
     <i class="fa fa-folder-o" aria-hidden="true"></i> 
     {% for categories in page.categories %}
-        <a class="tag-box" href="{{categories}}/">{{ categories }}</a>, 
-    {% endfor %} | 
+        <a class="tag-box" href="{{categories}}/">{{ categories }}</a> | 
+    {% endfor %}
     
     {% if site.disqus_shortname %}
       <i class="fa fa-comments" aria-hidden="true"></i> <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a>&nbsp;
