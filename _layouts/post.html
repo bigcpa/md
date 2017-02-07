@@ -3,7 +3,8 @@ layout: default
 ---
 
 <div class="post">
-    {% if post.tags.size > 0 %}
+    {% assign post = page %}
+{% if post.tags.size > 0 %}
     {% capture tags_content %}Теги {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
     {% for post_tag in post.tags %}
         {% assign tag = nil %}
@@ -27,7 +28,7 @@ layout: default
           <i class="fa fa-calendar" aria-hidden="true"></i> {% include date.html date=page.date %} | 
         </time>
         {% for categories in page.categories %}
-            <i class="fa fa-folder-o" aria-hidden="true"></i> <a class="tag-box" href="{{ site.baseurl }}{{categories}}/">{{ categories }}</a> | 
+            <i class="fa fa-folder-o" aria-hidden="true"></i> <a class="tag-box" href="{{ site.baseurl }}{{categories}}">{{ categories }}</a> | 
         {% endfor %}
         {% if site.disqus_shortname %}
           <i class="fa fa-comments" aria-hidden="true"></i> <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a>&nbsp;
