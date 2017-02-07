@@ -44,7 +44,7 @@ nav:
     О блоге:          
         - '/about/'
     Карта блога:          
-        - '/sitemap.html'
+        - '/blog/category/'
     Исходный код блога: 
         - 'https://codinfox.github.io/'
       
