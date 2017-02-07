@@ -39,15 +39,15 @@ defaults:
 
 # Navigation (2nd level links supported)
 nav:
-  Home:           
+  Главная:           
     - '/blog/'
     - { Тестовая Рубрика: '/blog/category/#test' }
     - { Member: '/staff/' }
     - { Linux: '/blog/linux/' }
     - { Tags: '/blog/tags/' }
-  About:          
+  О блоге:          
     - '/about/'
-  Github Project: 
+  Исходный код блога: 
     - 'https://codinfox.github.io/'
       
 gems:
