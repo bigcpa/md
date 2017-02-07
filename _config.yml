@@ -21,13 +21,9 @@ tag_page: '/blog/tags/'
 category_page: '/blog/category/'
 
 collections:
-  music:
-    name: Моя Музыка
-    output: true
   staff:
     name: Люди Staff
     output: true
-    #permalink: /staff
 
 defaults:
   -
@@ -35,7 +31,7 @@ defaults:
       path: ""
       type: staff
     values:
-      layout: staff-member
+      layout: member
       
 gems:
   - jekyll-paginate
