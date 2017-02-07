@@ -16,7 +16,8 @@ title: Blog
         <time datetime="{% include date.html date=post.date %}">
           <i class="fa fa-calendar" aria-hidden="true"></i> {% include date.html date=post.date %} | 
         </time>
-        {% for cat in site.categories %}
+        {% for cat in post.categories %}
+            {% capture cat_name %}{{ cat | first }}{% endcapture %}
             <i class="fa fa-folder-o" aria-hidden="true"></i> <a href="{{categories}}/">{{ cat_name }}</a> | 
         {% endfor %}
         
