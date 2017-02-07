@@ -40,8 +40,6 @@ defaults:
 # Navigation (2nd level links supported)
 nav:
   Home:           
-    - '/lp/'
-  Blog:           
     - '/blog/'
     - { Тестовая Рубрика: '/blog/category/#test' }
     - { Member: '/staff/' }
