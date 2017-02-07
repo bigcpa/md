@@ -33,7 +33,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "staff"
+      type: staff
     values:
       layout: "staff-member"
       
