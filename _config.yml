@@ -26,16 +26,15 @@ collections:
     output: true
   staff:
     name: Люди Staff
-    output: true
     #permalink: 
 
 defaults:
   -
     scope:
       path: ""
-      type: staff
+      type: 
     values:
-      layout: staff-member
+      layout:
       
 gems:
   - jekyll-paginate
