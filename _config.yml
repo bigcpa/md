@@ -24,9 +24,9 @@ collections:
   staff:
     name: Member Staff
     output: true
-  tagpages:
+  category:
     output: true
-    permalink: /blog/tag/:title
+    permalink: /blog/category/
 
 defaults:
   - scope:
