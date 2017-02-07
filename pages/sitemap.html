@@ -4,6 +4,11 @@ title: Карта Блога по категориям
 permalink: /sitemap.html
 ---
 
+{% for cat_name in page.top-categories %}
+    {% include category.html category=cat_name %}
+{% endfor %}   
+
+
 {% for cat in site.categories %}
     {% capture cat_name %}{{ cat | first }}{% endcapture %}
         
