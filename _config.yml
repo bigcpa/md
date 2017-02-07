@@ -50,6 +50,8 @@ collections:
   music:
     name: Моя Музыка
     output: true
+  staff:
+    output: true
 
 sass:
   style: compressed
