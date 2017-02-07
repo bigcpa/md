@@ -27,7 +27,7 @@ sitemap:
     <url>
         <loc>{{ site.url }}/blog/{{ categories }}/</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     {% endfor %}
