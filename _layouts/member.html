@@ -10,7 +10,7 @@ layout: default
     
     <i class="fa fa-folder-o" aria-hidden="true"></i> 
     {% for categories in site.staff %}
-        <a class="tag-box" href="{{categories}}/">{{ categories }}</a> | 
+        <a class="tag-box" href="{{site.staff.categories}}/">{{ site.staff.categories }}</a> | 
     {% endfor %}
     
     {% if site.disqus_shortname %}
