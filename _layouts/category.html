@@ -4,7 +4,8 @@ layout: default
 
 <h1>Записи категории: {{ page.name }}</h1>
 
-<ul>
+<div class="tags-expo-section">
+<ul class="tags-expo-posts">
   {% for post in site.categories.[page.slug] %}
     {% if post.url %}
         <li>
@@ -14,3 +15,4 @@ layout: default
     {% endif %}
   {% endfor %}
 </ul>
+</div>
