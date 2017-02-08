@@ -39,18 +39,19 @@ title: Blog
 
 <div class="pagination">
   {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">Назад</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">Назад</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Назад</span>
-  {% endif %}
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">Вперед</a>
+  <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">Вперед</a>
   {% else %}
-    <span class="pagination-item older">Вперед</span>
+  <span class="pagination-item older">Вперед</span>
   {% endif %}
+  {% if paginator.page == 2 %}
+  <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">Назад</a>
+  {% else %}
+  <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">Назад</a>
+  {% endif %}
+  {% else %}
+  <span class="pagination-item newer">Назад</span>
+  {% endif %}
+  
 </div>
 
