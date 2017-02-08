@@ -3,12 +3,12 @@ window.onload = function() { // после загрузки страницы
 	var scrollUp = document.getElementById('scrollup'); // найти элемент
 
 	scrollUp.onmouseover = function() { // добавить прозрачность
-		scrollUp.style.opacity=0.3;
+		scrollUp.style.opacity=0.5;
 		scrollUp.style.filter  = 'alpha(opacity=30)';
 	};
 
 	scrollUp.onmouseout = function() { //убрать прозрачность
-		scrollUp.style.opacity = 0.5;
+		scrollUp.style.opacity = 0.7;
 		scrollUp.style.filter  = 'alpha(opacity=50)';
 	};
 
