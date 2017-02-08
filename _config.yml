@@ -59,7 +59,7 @@ markdown: kramdown
 excerpt_separator: "<!-- more -->"
 
 # Permalinks
-paginate: 2
+paginate: 3
 paginate_path: '/blog/page:num/'
 permalink: '/blog/:title/'
 
