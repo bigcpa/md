@@ -2,7 +2,7 @@
 title:               'BIGCPA'
 description:         'Index description'
 tagline:             'Make Money Online'
-info:         'Приветсвую! Автор блога — Alex Creio <a rel="nofollow" href="https://twitter.com/creio" target="_blank">@creio</a>. Мои контакты находятся на странице <a href="/about/" >О блоге</a>, или <a href="#" onclick="Chatra('openChat', true)">Открыть чат</a> на этой странице.'
+info:         'Приветсвую! Автор блога — Alex Creio <a rel="nofollow" href="https://twitter.com/creio" target="_blank">@creio</a>. Мои контакты находятся на странице <a href="/about/" >О блоге</a>, или откройте чат справа.'
 url:                 http://ancient-emu.cloudvent.net
 baseurl:             ''
 
