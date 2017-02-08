@@ -62,7 +62,7 @@ img {
 // Tags
 .post-tag {
   display: inline-block;
-  background: rgba($accent, 0.15);
+  background: rgba($accent, 0.25);
   padding: 0 .5rem;
   margin-right: .5rem;
   border-radius: 4px;
@@ -101,7 +101,7 @@ img {
   }
   .tags-expo-section {
       font-family: $font-head;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     ul {
       list-style-type: circle;
       list-style-position: inside;
