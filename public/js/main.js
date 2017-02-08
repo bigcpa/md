@@ -47,6 +47,13 @@ window.onload = function() { // после загрузки страницы
 };
 
 
+// chatra settings
+window.ChatraSetup = {
+    colors: {
+        buttonText: '#f0f0f0',
+        buttonBg: '#9a9a9a'
+    }
+};
 // chatra
 (function(d, w, c) {
   w.ChatraID = 'dN3Chbwxiyss8DSKz';
@@ -59,14 +66,6 @@ window.onload = function() { // после загрузки страницы
   + '//call.chatra.io/chatra.js';
   if (d.head) d.head.appendChild(s);
 })(document, window, 'Chatra');
-
-// chatra settings
-window.ChatraSetup = {
-    colors: {
-        buttonText: '#f0f0f0',
-        buttonBg: '#9a9a9a'
-    }
-};
 
 
 
