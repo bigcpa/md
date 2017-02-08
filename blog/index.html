@@ -20,7 +20,7 @@ title: Blog
             <i class="fa fa-folder-o" aria-hidden="true"></i> <a href="{{categories}}/">{{ categories }}</a> | 
         {% endfor %}
         
-        {% if page.comments %}
+        {% if post.comments %}
           <i class="fa fa-comments" aria-hidden="true"></i> <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a>&nbsp;
         {% endif %}
     </div>
