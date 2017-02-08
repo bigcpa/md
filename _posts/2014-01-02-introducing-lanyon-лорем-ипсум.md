@@ -7,8 +7,7 @@ author:
   - name
 comments: true
 post_photo_path: http://i.giphy.com/Z1a01CyJNR76E.gif
-post_photo_alt: 
-post_video_path:
+post_video:
 ---
 
 
