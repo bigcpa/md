@@ -27,8 +27,8 @@ window.onload = function() { // после загрузки страницы
 	};
 
 	scrollUp.onmouseout = function() { //убрать прозрачность
-		scrollUp.style.opacity = 0.5;
-		scrollUp.style.filter  = 'alpha(opacity=50)';
+		scrollUp.style.opacity = 0.3;
+		scrollUp.style.filter  = 'alpha(opacity=30)';
 	};
 
 	scrollUp.onclick = function() { //обработка клика
@@ -60,7 +60,13 @@ window.onload = function() { // после загрузки страницы
   if (d.head) d.head.appendChild(s);
 })(document, window, 'Chatra');
 
-
+// chatra settings
+window.ChatraSetup = {
+    colors: {
+        buttonText: '#f0f0f0',
+        buttonBg: '#9a9a9a'
+    }
+};
 
 
 
