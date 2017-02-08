@@ -133,20 +133,23 @@ img {
 }
 
 // related post
-.related-posts {
-  li {
-    small {
-      font-size: 75%;
-      color: #999;
-    }
-    a:hover {
-      color: $accent-hover;
-      text-decoration: underline;
-      small {
-        color: inherit;
+.related {
+    padding-top: 0;
+    .related-posts {
+      li {
+        small {
+          font-size: 75%;
+          color: #999;
+        }
+        a:hover {
+          color: $accent-hover;
+          text-decoration: underline;
+          small {
+            color: inherit;
+          }
+        }
       }
     }
-  }
 }
 
 // sidebar
