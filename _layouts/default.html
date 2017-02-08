@@ -24,7 +24,7 @@
       </div>
     </div>
     
-    <div id="back-top"><a href="#top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></div>
+    <div id="scrollup"><i class="fa fa-chevron-circle-up up" aria-hidden="true"></i></div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
@@ -46,28 +46,8 @@
       })(document);
     </script>
     
-    <script>
-    $(document).ready(function(){
-    $("#back-top").hide();
-    $(function () {
-    $(window).scroll(function () {
-    if ($(this).scrollTop() > 100) {
-    $('#back-top').fadeIn();
-    } else {
-    $('#back-top').fadeOut();
-    }
-    });
-    $('#back-top a').click(function () {
-    $('body,html').animate({
-    scrollTop: 0
-    }, 400);
-    return false;
-    });
-    });
-    });
-    </script>
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="{{ site.url }}/public/js/main.js"></script>
     <script id="dsq-count-scr" src="//bigcpa.disqus.com/count.js" async></script>
   </body>
 </html>
