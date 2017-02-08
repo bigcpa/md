@@ -2,20 +2,22 @@
 layout: default
 ---
 
-<h1 class="page-title">Записи категории: {{ page.name }}</h1>
-<div class="tags-expo">
-  <div class="tags-expo-section">
-    <ul class="tags-expo-posts">
-      {% for post in site.categories.[page.slug] %}
-      {% if post.url %}
-      <a href="{{ post.url }}">
-        <li>
-          {{ post.title }}
-          <small class="post-date">{% include date.html date=post.date %}</small>
-        </li>
-      </a>
-      {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
+<div class="page">
+    <h1 class="page-title">Записи категории: {{ page.name }}</h1>
+    <div class="tags-expo">
+      <div class="tags-expo-section">
+        <ul class="tags-expo-posts">
+          {% for post in site.categories.[page.slug] %}
+          {% if post.url %}
+          <a href="{{ post.url }}">
+            <li>
+              {{ post.title }}
+              <small class="post-date">{% include date.html date=post.date %}</small>
+            </li>
+          </a>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
 </div>
