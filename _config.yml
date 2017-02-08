@@ -33,14 +33,16 @@ defaults:
 nav:
     Главнвя:
         - '/blog/'
-    Партнерские программы:
+    Тех. часть:
+        - '/blog/jekyll/'
+    Продвижение: 
+        - '/blog/seo/'
+    Делай деньги:
+        - '/blog/money/'
+    Софт и сервисы:
         - '/blog/partner/'
     Linux: 
         - '/blog/linux/'
-    Продвижение сайта: 
-        - '/blog/seo/'
-    Jekyll уроки:
-        - '/blog/jekyll/'
     # Категории:           
     #     - '/blog/category/'
     #     - { Tags: '/blog/tags/' }
