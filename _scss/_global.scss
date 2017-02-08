@@ -14,14 +14,15 @@ img {
   height: auto;
 }
 
+// media content
 @media (min-width: 1366px) {
     .container {
       max-width: 38rem;
       margin-left: auto;
     }
-    .fa-fire {
-        display: none !important;
-    }
+    // .fa-fire {
+    //     display: none !important;
+    // }
 }
 
 .content {
