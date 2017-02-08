@@ -21,13 +21,6 @@ a:focus {
     }
 }
 
-.post {
-    img {
-        float: left;
-        height: 150px;
-        margin: 0 1rem 1rem 0;
-    }
-}
 .post-title {
     font-weight: 400;
     margin: 0;
@@ -39,6 +32,11 @@ a:focus {
     a {
         border: none;
     }
+}
+.post-img {
+    float: left;
+    height: 150px;
+    margin: .5rem .5rem 0;
 }
 
 // Tags
