@@ -180,12 +180,12 @@ img {
 	position: fixed;
 	z-index: 1000;
 	opacity: 0.8;
-	padding: 5px 15px;
+	padding: 0px 10px;
 	background: $accent;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	left: 20px;
+	right: 20px;
 	bottom: 20px;
 	display: none;
 	cursor: pointer;
