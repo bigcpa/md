@@ -26,9 +26,9 @@ img {
     border: 1px solid $accent;
     border-radius: .2rem;
     &:hover {
-        background-color: $accent;
-        color: $white;
-        text-decoration: none;
+        background-color: $accent !important;
+        color: $white !important;
+        text-decoration: none !important;
     }
 }
 
