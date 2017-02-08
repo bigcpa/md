@@ -124,8 +124,10 @@ a:focus {
 // pagination
 .pagination {
     text-transform: uppercase;
-    a:hover {
-        background-color: #ddd;
+    .pagination-item {
+      border: 1px solid #ddd;
+    }
+    a:hover: {
         text-decoration: none;
     }
 }
