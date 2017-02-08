@@ -8,6 +8,7 @@ author:
 comments: true
 ---
 
+![big](http://i.giphy.com/Z1a01CyJNR76E.gif)
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. Лорем ипсум. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
