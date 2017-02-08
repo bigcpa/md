@@ -24,7 +24,7 @@ permalink: /blog/category/
     <div id="{{ tag[0] | slugify }}">{{ tag[0] }}</div>
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
-        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+        <a href="{{ site.baseurl }}{{ post.url }}">
       <li>
         {{ post.title }}
       <small class="post-date">{% include date.html date=post.date %}</small>
