@@ -8,7 +8,7 @@ layout: default
 <img src="{{ page.category_photo_path }}" alt="{{ page.name }}">
 
 <ul>
-    {% unless post.categories contains 'linux' %}
+    {% unless post.categories.linux %}
         <li>
             <a href="{{ post.url }}">{{ post.title }}</a> 
             <small>{% include date.html date=post.date %}</small>
