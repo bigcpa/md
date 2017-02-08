@@ -1,12 +1,15 @@
 {% if page.comments %}
 <div id="disqus_thread"></div>
-<a href="#" onСlick="dispexe();" >Открыть Комментарии</a>
 <script>
-var disqus_shortname = '{{ site.disqus_shortname }}'; 
-function dispexe() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-}
+var disqus_config = function () {
+this.page.url = "{{ site.url }}{{ page.url }}"; // <--- use canonical URL
+this.page.identifier = "{{ page.id }}";
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//{{ site.disqus_shortname }}.disqus.com/embed.js'; // <--- use Disqus shortname
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
 </script>
 {% endif %}
