@@ -132,7 +132,8 @@ a:focus {
 // back-top
 #scrollup {
 	position: fixed; /* фиксированная позиция */
-	opacity: 0.5; /* прозрачность */
+	z-index: 1000;
+	opacity: 0.7; /* прозрачность */
 	padding: 15px 10px 10px; /* отступы */
 	background: #aaa;
 	border-radius: 5px; /* скругление углов */
