@@ -110,7 +110,10 @@ img {
       list-style-position: inside;
       padding: 0;
       li {
-        transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+         -moz-transition: all .3s ease-in-out;
+           -o-transition: all .3s ease-in-out;
+              transition: all .3s ease-in-out;
         padding: 0 1rem;
         &:hover {
           list-style-type: disc;
