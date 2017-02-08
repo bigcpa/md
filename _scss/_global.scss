@@ -131,16 +131,18 @@ a:focus {
 
 // back-top
 #scrollup {
+	font-size: 2rem;
+	color: $accent;
 	position: fixed; /* фиксированная позиция */
 	z-index: 1000;
 	opacity: 0.7; /* прозрачность */
-	padding: 15px 10px 10px; /* отступы */
+	padding: 5px; /* отступы */
 	background: #aaa;
 	border-radius: 5px; /* скругление углов */
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	left: 10px; /* отступ слева */
-	bottom: 10px; /* отступ снизу */
+	left: 15px; /* отступ слева */
+	bottom: 15px; /* отступ снизу */
 	display: none; /* спрятать блок */
 	cursor: pointer;
 }
