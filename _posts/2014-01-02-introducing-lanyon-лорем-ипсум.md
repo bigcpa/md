@@ -11,7 +11,7 @@ post_video:
 ---
 
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. Лорем ипсум. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. Лорем ипсум. It's based on [Poole](http://getpoole.com), the Jekyll butler.<!-- more -->
 
 ### Built on Poole Лорем ипсум
 
@@ -22,7 +22,7 @@ Poole is the Jekyll Butler, serving as an upstanding and effective foundation fo
 * Easily scalable text and component sizing with `rem` units in the CSS
 * Support for a wide gamut of HTML elements
 * Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)<!-- more -->
+* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
 
 ### Lanyon features
 
