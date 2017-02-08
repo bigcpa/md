@@ -14,9 +14,14 @@ a:focus {
         color: $accent;
         text-decoration: none;
     }
-    a:hover,
-    a:focus {
+    a:hover {
         color: $accent-hover;
+    }
+}
+
+.posts {
+    a:hover {
+        text-decoration: underline;
     }
 }
 
