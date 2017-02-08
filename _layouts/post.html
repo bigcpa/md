@@ -35,4 +35,6 @@ layout: default
   </ul>
 </div>
 
-{% include disqus.html %}
+{% if site.disqus_shortname %}
+  {% include disqus.html %}
+{% endif %}
