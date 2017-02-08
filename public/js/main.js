@@ -51,7 +51,14 @@ window.ChatraSetup = {
 })(document, window, 'Chatra');
 
 
-
+// disqus_loaded
+window.onscroll = function(e) {
+    if ((window.innerHeight + window.scrollY) 
+        >= document.body.offsetHeight) 
+    {
+        if (!disqus_loaded) disqus(); 
+    }
+};
 
 
 
