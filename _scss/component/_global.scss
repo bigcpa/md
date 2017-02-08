@@ -21,6 +21,13 @@ a:focus {
     }
 }
 
+.post {
+    img {
+        float: left;
+        height: 150px;
+        margin: 0 1rem 1rem 0;
+    }
+}
 .post-title {
     font-weight: 400;
     margin: 0;
@@ -28,6 +35,7 @@ a:focus {
 .post-date {
     font-size: .65rem;
     color: $lightgrey;
+    margin: 0;
     a {
         border: none;
     }
@@ -112,6 +120,7 @@ a:focus {
     }
 }
 
+// pagination
 
 
 
