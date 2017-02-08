@@ -9,6 +9,11 @@ a:focus {
     text-decoration: none;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .content {
     a {
         color: $accent;
