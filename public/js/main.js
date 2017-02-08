@@ -8,8 +8,8 @@ window.onload = function() { // после загрузки страницы
 	};
 
 	scrollUp.onmouseout = function() { //убрать прозрачность
-		scrollUp.style.opacity = 0.7;
-		scrollUp.style.filter  = 'alpha(opacity=70)';
+		scrollUp.style.opacity = 0.5;
+		scrollUp.style.filter  = 'alpha(opacity=50)';
 	};
 
 	scrollUp.onclick = function() { //обработка клика
