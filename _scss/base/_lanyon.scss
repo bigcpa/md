@@ -427,6 +427,7 @@ a.sidebar-nav-item {
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
+  text-transform: uppercase;
   a:hover, a:focus {
     background-color: #ddd;
     border-bottom: 0 !important;
@@ -439,7 +440,7 @@ a.sidebar-nav-item {
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid #eee;
+  border: 2px solid #eee;
   &:first-child {
     margin-bottom: -1px;
   }
