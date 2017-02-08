@@ -51,7 +51,7 @@ window.onload = function() { // после загрузки страницы
 window.ChatraSetup = {
     colors: {
         buttonText: '#f0f0f0',
-        buttonBg: '#000000'
+        buttonBg: '#9a9a9a'
     }
 };
 // chatra
