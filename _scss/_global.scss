@@ -1,8 +1,8 @@
 a {
-    -webkit-transition: all .3s ease;
-     -moz-transition: all .3s ease;
-       -o-transition: all .3s ease;
-          transition: all .3s ease;
+    -webkit-transition: all .1s ease-in-out;
+     -moz-transition: all .1s ease-in-out;
+       -o-transition: all .1s ease-in-out;
+          transition: all .1s ease-in-out;
 }
 a:hover,
 a:focus {
@@ -68,12 +68,8 @@ a:focus {
   }
   &:hover {
     text-decoration: none;
-    background: $accent !important;
-    color: $white !important;
-    border-bottom: none !important;
-  }
-  &:focus {
-    border-bottom: none !important;
+    background: $accent;
+    color: $white;
   }
   transition: all .1s ease-in-out;
   span {
