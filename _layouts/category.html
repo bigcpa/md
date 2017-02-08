@@ -8,10 +8,12 @@ layout: default
 <ul class="tags-expo-posts">
   {% for post in site.categories.[page.slug] %}
     {% if post.url %}
+        <a class="post-title" href="{{ post.url }}">
         <li>
-            <a href="{{ post.url }}">{{ post.title }}</a> 
-            <small>{% include date.html date=post.date %}</small>
+            {{ post.title }}
+            <small class="post-date">{% include date.html date=post.date %}</small>
         </li>
+        </a>
     {% endif %}
   {% endfor %}
 </ul>
