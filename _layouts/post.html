@@ -10,11 +10,11 @@ layout: default
           <i class="fa fa-calendar" aria-hidden="true"></i> {% include date.html date=page.date %} | 
         </time>
         {% for categories in page.categories %}
-            Категория: <a href="{{categories}}/">{{ categories }}</a>
+            <i class="fa fa-folder-open-o" aria-hidden="true"></i> <a href="{{categories}}/">{{ categories }}</a>
         {% endfor %}
         
         {% if page.comments %}
-           | <i class="fa fa-comments" aria-hidden="true"></i> <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a>&nbsp;
+           | <i class="fa fa-commenting-o" aria-hidden="true"></i> <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a>&nbsp;
         {% endif %}
     </div>
     
