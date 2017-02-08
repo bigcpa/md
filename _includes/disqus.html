@@ -19,11 +19,11 @@ function disqus() {
   if (!disqus_loaded)  {
     
     // This is to ensure that Disqus widget is loaded only once
-    disqus_loaded = false;
+    disqus_loaded = true;
     
     var e = document.createElement("script");
     e.type = "text/javascript";
-    e.async = true;
+    e.async = false;
     e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
     (document.getElementsByTagName("head")[0] ||
      document.getElementsByTagName("body")[0])
