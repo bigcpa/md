@@ -25,9 +25,16 @@ img {
     }
 }
 
+.page-title {
+  color: #5e676d;
+}
 .post-title {
     font-weight: 400;
     margin: 0;
+    color: #5e676d;
+      a {
+        color: #5e676d;
+      }
 }
 .post-date {
     font-size: .65rem;
