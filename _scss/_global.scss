@@ -41,9 +41,11 @@ img {
     padding-bottom: 3rem;
     margin-bottom: 3rem;
 }
-.page-title {
+.page-title, .page-title {
+    text-align: center;
     font-weight: 400;
     color: #5e676d;
+    padding-bottom: 1rem;
 }
 .post-title {
     font-weight: 400;
@@ -51,6 +53,9 @@ img {
     color: #5e676d;
       a {
         color: #5e676d;
+      }
+      &:hover {
+          text-decoration: none;
       }
 }
 
