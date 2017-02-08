@@ -1,6 +1,6 @@
 {% if page.comments %}
 <div id="disqus_thread">
-  <a href="#" onclick="disqus.load();">Открыть Комментарии</a> 
+  <a href="#" onclick="disqus();return false;">Открыть Комментарии</a> 
 </div>
 <script>
 var disqus_shortname = "{{ site.disqus_shortname }}";
@@ -19,7 +19,7 @@ function disqus() {
   if (!disqus_loaded)  {
     
     // This is to ensure that Disqus widget is loaded only once
-    disqus_loaded = true;
+    disqus_loaded = false;
     
     var e = document.createElement("script");
     e.type = "text/javascript";
