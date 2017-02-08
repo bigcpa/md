@@ -135,6 +135,7 @@ img {
     }
     a:hover {
       color: $accent-hover;
+      text-decoration: underline;
       small {
         color: inherit;
       }
