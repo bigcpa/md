@@ -51,7 +51,6 @@ nav:
       
 gems:
   - jekyll-paginate
-  - jekyll-paginate-category
   
 markdown: kramdown
 
@@ -61,8 +60,6 @@ excerpt_separator: "<!-- more -->"
 paginate: 2
 paginate_path: '/blog/page:num/'
 permalink: '/blog/:title/'
-category_dir: "/blog/category/"
-category_layout: "category.html"
 
 sass:
   style: compressed
