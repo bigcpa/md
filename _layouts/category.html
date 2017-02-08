@@ -4,7 +4,7 @@ layout: default
 
 <h1>Записи категории {{ page.name }}</h1>
 
-{% for post in paginator.posts %}
+{% for page in paginator.posts %}
 <img src="{{ page.category_photo_path }}" alt="{{ page.name }}">
 
 <ul>
