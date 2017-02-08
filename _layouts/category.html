@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<h1>Записи категории {{ page.name }}</h1>
+<h1>Записи категории: {{ page.name }}</h1>
 
 {% for post in paginator.posts %}
 <img src="{{ page.category_photo_path }}" alt="{{ page.name }}">
 
 <ul>
-    {% unless post.categories contains '[page.slug]' %}
+    {% unless post.categories contains 'linux' %}
         <li>
             <a href="{{ post.url }}">{{ post.title }}</a> 
             <small>{% include date.html date=post.date %}</small>
