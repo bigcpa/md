@@ -49,12 +49,12 @@ a:focus {
   }
   &:hover {
     text-decoration: none;
-    background: $accent;
-    color: $white;
-    border-bottom: none;
+    background: $accent !important;
+    color: $white !important;
+    border-bottom: none !important;
   }
   &:focus {
-    border-bottom: none;
+    border-bottom: none !important;
   }
   transition: all .1s ease-in-out;
   span {
