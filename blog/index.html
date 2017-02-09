@@ -18,6 +18,7 @@ title: Blog
         </time>
         {% for categories in post.categories %}
             <i class="fa fa-folder-open-o" aria-hidden="true"></i> <a href="{{categories}}/">{{ categories }}</a>
+        {% endfor %}
     </div>
     
     {% if post.post_photo_path %}<img class="list-img" src="{{ post.post_photo_path }}" alt="{{ post.title }}">{% endif %}
