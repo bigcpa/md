@@ -65,15 +65,16 @@ background:#3d594b;
 float: right;
 display: none;
 }
-.content-wrap {
-    float: left;
-  clear: both;
-  width: 75%;
-}
+
 // media content
 @media (min-width: 1366px) {
     .container {
       max-width: 1200px;
+    }
+    .content-wrap {
+        float: left;
+        clear: both;
+        width: 75%;
     }
     .sidebar-right {
         display: block;
