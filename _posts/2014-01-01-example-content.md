@@ -4,11 +4,8 @@ title: Example content
 category:
   - linux
   - jekyll
-tags:
-  - lorem
-  - игра
-  - демо
-  - jekyll
+post_video: xzB7EkyyoxU
+comment: 
 ---
 
 
