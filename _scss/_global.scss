@@ -56,15 +56,24 @@ img {
     }
 }
 
+// sidebar right
+.sidebar-right {
+padding: 1em;
+width:100%;
+border: 8px solid darkred;
+background:#3d594b;
+float: right;
+}
+
 // media content
 @media (min-width: 1366px) {
     .container {
       max-width: 38rem;
       margin-left: auto;
     }
-    // .fa-fire {
-    //     display: none !important;
-    // }
+    .fa-fire {
+        display: none !important;
+    }
 }
 
 .content {
