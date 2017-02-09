@@ -55,6 +55,11 @@ html {
     font-size: 20px;
   }
 }
+@media (min-width: 75em) {
+  html {
+    font-size: 18px;
+  }
+}
 
 body {
   color: #3d464d;
