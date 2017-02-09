@@ -56,6 +56,15 @@ img {
     }
 }
 
+// sidebar right
+#sidebar {
+padding: 1em;
+width:100%;
+border: 8px solid darkred;
+background:#3d594b;
+float: right;
+}
+
 // media content
 @media (min-width: 1366px) {
     .container {
