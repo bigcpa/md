@@ -20,7 +20,7 @@ $('#fixblock').scroolly([
 {
 	to: 'con-top',
 	css: {
-		position: 'absolute',
+		position: '',
 		top: ''
 	}
 },
