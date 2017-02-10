@@ -28,7 +28,8 @@ $('#fixblock').scroolly([
 	from: 'con-top',
 	css: {
 		position: 'fixed',
-		top: '10'
+		top: '1',
+		text-align: 'center'
 	}
 }
 ], $('.embed-responsive'));
