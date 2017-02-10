@@ -2,14 +2,14 @@
 title:               'BIGCPA'
 description:         'Index description'
 tagline:             'Make Money Online'
-info:         'Приветсвую! Автор блога — Alex Creio <a rel="nofollow" href="https://twitter.com/creio" target="_blank">@creio</a>. Мои контакты находятся на странице <a href="/about/" >О блоге</a>, или пишите в чат — кнопка справа.'
+info:         'Приветсвую! Я — Alex Creio. Специализируюсь на создании и продвижении сайтов, смотрите — <a href="/about/" >Мои Услуги</a>. Также активно занимаюсь арбитражом трафика и интересуюсь Linux, подробнее читайте тут <a href="/about/" >О блоге</a>.'
 url:                 http://ancient-emu.cloudvent.net
 baseurl:             ''
 
 # About/contact
 author:
   name:              Alex Creio
-  url:               https://twitter.com/creio
+  url:               https://twitter.com/acretm
   email:             mailcreio@gmail.com
 
 disqus_shortname: bigcpa
