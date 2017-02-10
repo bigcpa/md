@@ -52,21 +52,21 @@ window.ChatraSetup = {
 
 
 // // disqus_loaded scroll
-// window.onscroll = function(e) {
-//     if ((window.innerHeight + window.scrollY) 
-//         >= document.body.offsetHeight) 
-//     {
-//         if (!disqus_loaded) disqus(); 
-//     }
-// };
-// disqus_loaded click
 window.onscroll = function(e) {
     if ((window.innerHeight + window.scrollY) 
         >= document.body.offsetHeight) 
     {
-        if (disqus_loaded==false){ load_disqus() };
+        if (!disqus_loaded) disqus(); 
     }
 };
+// disqus_loaded click
+// window.onscroll = function(e) {
+//     if ((window.innerHeight + window.scrollY) 
+//         >= document.body.offsetHeight) 
+//     {
+//         if (disqus_loaded==false){ load_disqus() };
+//     }
+// };
 
 
 
