@@ -32,13 +32,14 @@ defaults:
 jekyll-archives:
   enabled: 
     - tags
+    - category
   layout: 'archive'
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
-    category: '/category/:name/'
+    category: '/cat/:name/'
 
 # Navigation (2nd level links supported)
 nav:
