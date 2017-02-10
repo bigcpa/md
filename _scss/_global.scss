@@ -65,12 +65,14 @@ img {
 }
 // sidebar right
 .sidebar-right {
-    padding: 1em;
     width: 30%;
-    border: 3px solid $accent;
     margin-left: 2%;
     float: right;
     display: none;
+}
+.promo {
+    padding: 2em 1em;
+    background-color: #ebeef2;
 }
 
 // media content
