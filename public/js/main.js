@@ -33,7 +33,6 @@ $('#fixblock').scroolly([
 }
 ], $('.body'));
 
-
 // scrolljump
 $(function() { 
   $(window).scroll(function() {
