@@ -15,19 +15,19 @@ author:
 disqus_shortname: bigcpa
 
 # Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/category/'
+# tag_page: '/blog/tags/'
+# category_page: '/blog/category/'
 
-collections:
-  category:
-    output: true
+# collections:
+#   category:
+#     output: true
 
-defaults:
-  - scope:
-      path: ""
-      type: category
-    values:
-      layout: category
+# defaults:
+#   - scope:
+#       path: ""
+#       type: category
+#     values:
+#       layout: category
       
 jekyll-archives:
   enabled: 
