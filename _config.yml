@@ -34,6 +34,9 @@ jekyll-archives:
     - tags
     - category
   layout: 'archive'
+  layouts:
+    category: cat
+    tag: tag
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
