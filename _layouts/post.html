@@ -9,9 +9,11 @@ layout: default
         <time datetime="{% include date.html date=page.date %}">
           <i class="fa fa-calendar" aria-hidden="true"></i> {% include date.html date=page.date %} | 
         </time>
-        {% for categories in page.categories %}
-            <i class="fa fa-folder-open-o" aria-hidden="true"></i> <a href="{{ site.url }}/blog/{{categories}}/">{{ categories }}</a>
+        {% if page.tags %} | 
+        {% for tag in page.tags %}
+        <a href="{{ site.url }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
         {% endfor %}
+        {% endif %}
     </div>
     
   {% if page.post_photo_path %}<img class="post-img" src="{{ page.post_photo_path }}" alt="{{ page.title }}">{% endif %}
