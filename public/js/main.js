@@ -43,7 +43,7 @@ $(function() {
     }
   });
   $('#scrollup').click(function() {
-    $('body,html').animate({scrollTop:0},200);
+    $('body,html').animate({scrollTop:0},300);
   });
 });
 
