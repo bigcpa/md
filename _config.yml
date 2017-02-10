@@ -33,7 +33,6 @@ jekyll-archives:
   enabled: 
     - tags
     - category
-  layout: 'archive'
   layouts:
     category: cat
     tag: tag
