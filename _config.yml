@@ -68,7 +68,7 @@ excerpt_separator: "<!--more-->"
 
 # Permalinks
 paginate: 3
-paginate_path: '/p/page:num/'
+paginate_path: '/blog/page:num/'
 permalink: '/p/:title/'
 
 sass:
