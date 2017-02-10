@@ -33,7 +33,9 @@ jekyll-archives:
   enabled: 
     - tags
     - categories
-  layout: tag
+  layouts:
+    tag: tag
+    category: cat
   permalinks:
     tag: '/tag/:name/'
     category: '/cat/:name/'
