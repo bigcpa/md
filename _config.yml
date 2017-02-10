@@ -33,9 +33,7 @@ jekyll-archives:
   enabled: 
     - tags
     - category
-  layouts:
-    category: cat
-    tag: tag
+  layout: tag
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
