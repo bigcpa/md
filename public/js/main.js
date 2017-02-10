@@ -28,8 +28,7 @@ $('#fixblock').scroolly([
 	from: 'con-top',
 	css: {
 		position: 'fixed',
-		top: '1',
-		text: 'center'
+		top: '1'
 	}
 }
 ], $('.embed-responsive'));
@@ -44,7 +43,7 @@ $(function() {
     }
   });
   $('#scrollup').click(function() {
-    $('body,html').animate({scrollTop:0},400);
+    $('body,html').animate({scrollTop:0},200);
   });
 });
 
