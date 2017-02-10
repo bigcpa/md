@@ -36,38 +36,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="{{ site.url }}/public/js/main.js"></script>
     
-    <script type="text/javascript">
-function getTopOffset(e) { 
-	var y = 0;
-	do { y += e.offsetTop; } while (e = e.offsetParent);
-	return y;
-}
-var block = document.getElementById('fixblock'); /* fixblock - значение атрибута id блока */
-if ( null != block ) {
-	var topPos = getTopOffset( block );
-
-	window.onscroll = function() {
-		var scrollHeight = Math.max( document.documentElement.scrollHeight, document.documentElement.clientHeight),
-
-		    // определяем высоту рекламного блока
-		    blockHeight = block.offsetHeight,
-
-		    // вычисляем высоту подвала, footer заменить на значение атрибута id подвала
-		    footerHeight = document.getElementById('footer').offsetHeight, 	    
-
-		    // считаем позицию, до которой блок будет зафиксирован 
-		    stopPos = scrollHeight - blockHeight - footerHeight; 
-
-		var newcss = (topPos < window.pageYOffset) ? 
-			'top:20px; position: fixed;' : 'position:static;';
-
-		if ( window.pageYOffset > stopPos ) 
-			newcss = 'position:static;';
-
-		block.setAttribute( 'style', newcss );
-	}
-}
-</script>
-    
   </body>
 </html>
