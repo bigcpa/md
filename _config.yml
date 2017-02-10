@@ -53,6 +53,7 @@ nav:
       
 gems:
   - jekyll-paginate
+  - jekyll-archives
   
 markdown: kramdown
 
