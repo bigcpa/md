@@ -29,7 +29,7 @@ $('#fixblock').scroolly([
 	css: {
 		position: 'fixed',
 		top: '1',
-		text-align: 'center'
+		text: 'center'
 	}
 }
 ], $('.embed-responsive'));
