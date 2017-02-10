@@ -16,7 +16,7 @@
 })(document);
 
 // fix block
-$('.fixblock').scroolly([
+$('#fixblock').scroolly([
 {
 	to: 'con-top',
 	css: {
@@ -31,7 +31,7 @@ $('.fixblock').scroolly([
 		top: '0'
 	}
 }
-], $('.body'));
+], $('.embed-responsive'));
 
 // scrolljump
 $(function() { 
