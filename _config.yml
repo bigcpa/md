@@ -68,8 +68,8 @@ excerpt_separator: "<!--more-->"
 
 # Permalinks
 paginate: 3
-paginate_path: '/page:num/'
-permalink: '/:title/'
+paginate_path: '/p/page:num/'
+permalink: '/p/:title/'
 
 sass:
   style: compressed
