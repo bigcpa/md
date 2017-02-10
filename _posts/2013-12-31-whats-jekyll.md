@@ -4,6 +4,7 @@ title: What's Jekyll?
 category: Money
 tags:
   - jekyll
+  - test
 author: Alex Creio
 comments: true
 ---
