@@ -32,7 +32,7 @@ disqus_shortname: bigcpa
 jekyll-archives:
   enabled: 
     - tags
-    - category
+    - categories
   layout: tag
   permalinks:
     year: '/:year/'
