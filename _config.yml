@@ -34,7 +34,7 @@ jekyll-archives:
     - tags
     - category
   layouts:
-    # category: cat
+    category: cat
     tag: tag
   permalinks:
     year: '/:year/'
