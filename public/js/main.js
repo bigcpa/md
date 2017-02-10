@@ -16,7 +16,7 @@
 })(document);
 
 // fix block
-$('#fixblock').scroolly([
+$('.fixblock').scroolly([
 {
 	to: 'con-top',
 	css: {
