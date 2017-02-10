@@ -32,7 +32,7 @@ if ( null != block ) {
 		    blockHeight = block.offsetHeight,
 
 		    // вычисляем высоту подвала, footer заменить на значение атрибута id подвала
-		    footerHeight = document.getElementById('footer').offsetHeight, 	    
+		    footerHeight = document.getElementById('disqus_thread').offsetHeight, 	    
 
 		    // считаем позицию, до которой блок будет зафиксирован 
 		    stopPos = scrollHeight - blockHeight - footerHeight; 
