@@ -25,7 +25,7 @@ $('#fixblock').scroolly([
 	}
 },
 {
-	from: 'con-bottom',
+	from: 'doc-center',
 	css: {
 		position: 'fixed',
 		top: '0'
