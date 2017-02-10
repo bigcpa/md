@@ -6,7 +6,7 @@ permalink: /tag/
 
 <div class="tags-expo">
   <div class="tags-expo-list">
-    {% assign tags_list = site.categories %}  
+    {% assign tags_list = site.tags %}  
         {% if tags_list.first[0] == null %}
             {% for tag in tags_list %} 
                 <a class="post-tag" href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a>
@@ -20,7 +20,7 @@ permalink: /tag/
   </div>
   <hr/>
   <div class="tags-expo-section">
-    {% for tag in site.categories %}
+    {% for tag in site.tags %}
     <div id="{{ tag[0] | slugify }}">{{ tag[0] }}</div>
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
