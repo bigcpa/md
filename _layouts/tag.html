@@ -1,12 +1,20 @@
 ---
 layout: default
 ---
-<h1>Archive of posts with {{ page.type }} '{{ page.title }}'</h1>
-<ul class="posts">
-  {% for post in page.posts %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<div class="page">
+    <h1 class="page-title">Записи категории: {{ page.title }}</h1>
+    <div class="tags-expo">
+      <div class="tags-expo-section">
+        <ul class="tags-expo-posts">
+          {% for post in page.posts %}
+          <a href="{{ post.url }}">
+            <li>
+              {{ post.title }}
+              <small class="post-date">{% include date.html date=post.date %}</small>
+            </li>
+          </a>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+</div>
