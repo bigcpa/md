@@ -31,7 +31,7 @@ $('#fixblock').scroolly([
 		top: '0'
 	}
 }
-], $('.content-wrap'));
+], $('.fixblock-init'));
 
 // scrolljump
 $(function() { 
