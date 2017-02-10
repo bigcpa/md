@@ -55,12 +55,12 @@ nav:
     Linux: 
         - '/cat/linux/'
     # Категории:           
-    #     - '/blog/category/'
-    #     - { Tags: '/blog/tags/' }
+    #     - '/cat/'
+    #     - { Tags: '/tag/' }
     О блоге:          
         - '/about/'
     Карта блога:          
-        - '/blog/category/'
+        - '/tag/'
       
 gems:
   - jekyll-paginate
