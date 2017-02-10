@@ -45,15 +45,15 @@ nav:
     Главнвя:
         - '/blog/'
     Тех. часть:
-        - '/blog/jekyll/'
+        - '/cat/jekyll/'
     Продвижение: 
-        - '/blog/seo/'
+        - '/cat/seo/'
     Делай деньги:
-        - '/blog/money/'
+        - '/cat/money/'
     Софт и сервисы:
-        - '/blog/partner/'
+        - '/cat/partner/'
     Linux: 
-        - '/blog/linux/'
+        - '/cat/linux/'
     # Категории:           
     #     - '/blog/category/'
     #     - { Tags: '/blog/tags/' }
