@@ -15,6 +15,8 @@
 	}, false);
 })(document);
 
+
+
 // fix block fix content bottom sidebar
 // $('#fixblock').scroolly([
 // {
@@ -32,6 +34,7 @@
 // 	}
 // }
 // ], $('.sidebar-content'));
+
 // fix block fix content top sidebar
 $('#fixblock').scroolly([
 {
@@ -49,6 +52,8 @@ $('#fixblock').scroolly([
 	}
 }
 ], $('.sidebar-content'));
+
+
 
 // scrolljump
 $(function() { 
@@ -94,6 +99,7 @@ window.onscroll = function(e) {
         if (!disqus_loaded) disqus(); 
     }
 };
+
 // disqus_loaded click
 // window.onscroll = function(e) {
 //     if ((window.innerHeight + window.scrollY) 
