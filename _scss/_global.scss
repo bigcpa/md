@@ -76,14 +76,21 @@ img {
 }
 // sidebar right
 .sidebar-right {
+    background-color: #ebeef2;
     width: 30%;
     margin-left: 2%;
     float: right;
     display: none;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 .promo {
     padding: 2em 1em;
     background-color: #ebeef2;
+}
+.sidebar-content {
+    padding: 2em 1em;
 }
 
 // media content
