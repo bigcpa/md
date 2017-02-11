@@ -18,16 +18,16 @@
 // fix block
 $('#fixblock').scroolly([
 {
-	to: 'vp-bottom',
+	to: 'con-top',
 	css: {
-		position: 'reletive',
+		position: 'fixed',
 		top: ''
 	}
 },
 {
 	from: 'con-bottom',
 	css: {
-		position: 'fixed',
+		position: 'reletive',
 		top: '0'
 	}
 }
