@@ -18,9 +18,9 @@
 // fix block
 $('#fixblock').scroolly([
 {
-	to: 'con-top',
+	to: 'con-bottom = vp-top',
 	css: {
-		position: '',
+		position: 'reletive',
 		top: ''
 	}
 },
