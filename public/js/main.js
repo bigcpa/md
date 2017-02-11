@@ -18,20 +18,19 @@
 // fix block
 $('#fixblock').scroolly([
 {
-	to: 'el-top = vp-bottom',
-	css: {
-		position: '',
+	from: 'el-bottom = vp-bottom',
+	to: 'el-bottom = vp-top',
+    cssFrom:{
+        position:'reletive',
 		top: ''
-	}
-},
-{
-	from: 'el-bottom = vp-top',
-	css: {
-		position: 'fixed',
+    },
+    cssTo:{
+        position:'fixed',
 		top: '0'
-	}
+    },
+
 }
-]);
+], $('.sidebar-content'));
 
 // scrolljump
 $(function() { 
