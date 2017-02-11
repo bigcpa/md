@@ -2,7 +2,7 @@
 title:               'BIGCPA'
 description:         'Index description'
 tagline:             'Make Money Online'
-info:         'Приветсвую! Я — Alex Creio. Специализируюсь на создании и продвижении сайтов, смотрите — <a href="/about/" >Мои Услуги</a>. Также активно занимаюсь арбитражом трафика и интересуюсь Linux, подробнее читайте тут <a href="/about/" >О блоге</a>.'
+info:                ''
 url:                 http://ancient-emu.cloudvent.net
 baseurl:             ''
 
@@ -12,7 +12,7 @@ author:
   url:               https://twitter.com/acretm
   email:             mailcreio@gmail.com
 
-disqus_shortname: bigcpa
+disqus_shortname:    bigcpa
 
 # collections:
 #   category:
