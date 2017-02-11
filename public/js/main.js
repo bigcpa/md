@@ -25,7 +25,7 @@ $('#fixblock').scroolly([
 	}
 },
 {
-	from: 'con-bottom = vp-top',
+	from: 'el-bottom = vp-top',
 	css: {
 		position: 'fixed',
 		top: '0'
