@@ -38,7 +38,7 @@
 // fix block fix content top sidebar
 $('#fixblock').scroolly([
 {
-	to: 'con-bottom = vp-bottom',
+	to: 'con-bottom = vp-top',
 	css: {
 		position: '',
 		top: ''
