@@ -70,6 +70,7 @@ $(function() {
 });
 
 
+
 // chatra settings
 window.ChatraSetup = {
     colors: {
@@ -89,6 +90,7 @@ window.ChatraSetup = {
   + '//call.chatra.io/chatra.js';
   if (d.head) d.head.appendChild(s);
 })(document, window, 'Chatra');
+
 
 
 // // disqus_loaded scroll
