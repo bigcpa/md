@@ -15,17 +15,34 @@
 	}, false);
 })(document);
 
-// fix block
+// fix block fix content bottom sidebar
+// $('#fixblock').scroolly([
+// {
+// 	to: 'con-bottom = vp-top',
+// 	css: {
+// 		position: '',
+// 		top: ''
+// 	}
+// },
+// {
+// 	from: 'el-top = vp-top',
+// 	css: {
+// 		position: 'fixed',
+// 		top: '0'
+// 	}
+// }
+// ], $('.sidebar-content'));
+// fix block fix content top sidebar
 $('#fixblock').scroolly([
 {
-	to: 'con-bottom = vp-top',
+	to: 'con-bottom = vp-bottom',
 	css: {
 		position: '',
 		top: ''
 	}
 },
 {
-	from: 'el-top = vp-top',
+	from: 'con-bottom = vp-top',
 	css: {
 		position: 'fixed',
 		top: '0'
