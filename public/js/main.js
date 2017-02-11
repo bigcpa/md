@@ -18,17 +18,18 @@
 // fix block
 $('#fixblock').scroolly([
 {
-	from: 'el-bottom = vp-bottom',
-	to: 'el-bottom = vp-top',
-    cssFrom:{
-        position:'reletive',
+	to: 'vp-bottom',
+	css: {
+		position: 'reletive',
 		top: ''
-    },
-    cssTo:{
-        position:'fixed',
+	}
+},
+{
+	from: 'con-bottom',
+	css: {
+		position: 'fixed',
 		top: '0'
-    },
-
+	}
 }
 ], $('.sidebar-content'));
 
