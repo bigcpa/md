@@ -65,9 +65,9 @@ img {
     .masthead-title {
         a {
             font-weight: 700;
-        }
-        a:hover {
-            color: $accent-hover;
+            &:hover {
+                color: $accent-hover;
+            }
         }
     }
 }
