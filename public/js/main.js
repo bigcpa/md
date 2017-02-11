@@ -25,13 +25,13 @@ $('#fixblock').scroolly([
 	}
 },
 {
-	from: 'doc-center',
+	from: 'el-bottom',
 	css: {
 		position: 'fixed',
 		top: '0'
 	}
 }
-], $('.content-wrap'));
+]);
 
 // scrolljump
 $(function() { 
