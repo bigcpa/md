@@ -66,12 +66,13 @@ img {
 
 .wrap {
     background-color: $lightgrey;
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
 }
 
 .content {
+    position: absolute;
 }
 
 .content-wrap {
