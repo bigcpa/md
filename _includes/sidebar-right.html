@@ -20,12 +20,13 @@
     </div>
     <div class="sidebar-content">
         <ul>
-            {% for popular_post in popular_posts | limit:3 %} <!-- renamed variable -->
-    {% unless popular_post.id == page.id %}
-             <li>
-             <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
-             </li>
-    {% endunless %}   <!-- you can use if and endif also --->
+            {% for theCategory in page.categories %} 
+    {% assign popular_posts = site.popular_posts %} 
+      {% for page in popular_posts | limit:3 %}
+         <li>
+         <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+         </li>
+      {% endfor %}
 {% endfor %}
         </ul>
     </div>
