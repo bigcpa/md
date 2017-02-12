@@ -28,28 +28,28 @@ disqus_shortname:    bigcpa
 jekyll-archives:
   enabled: 
     - tags
-    - categories
+    # - categories
   layouts:
     tag: tag
-    category: cat
+    # category: cat
   permalinks:
     tag: '/tag/:name/'
-    category: '/cat/:name/'
+    # category: '/cat/:name/'
 
 # Navigation (2nd level links supported)
 nav:
     Главнвя:
         - '/blog/'
     Тех. часть:
-        - '/cat/jekyll/'
+        - '/tag/jekyll/'
     Продвижение: 
-        - '/cat/seo/'
+        - '/tag/seo/'
     Делай деньги:
-        - '/cat/money/'
+        - '/tag/money/'
     Софт и сервисы:
-        - '/cat/partner/'
+        - '/tag/partner/'
     Linux: 
-        - '/cat/linux/'
+        - '/tag/linux/'
     # Категории:           
     #     - '/cat/'
     #     - { Теги: '/tag/' }
