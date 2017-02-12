@@ -68,16 +68,6 @@ h1, h2, h3, h4, h5, h6 {
  * Center the page content.
  */
 
-.container {
-  max-width: 28rem;
-}
-
-@media (min-width: 38em) {
-  .container {
-    max-width: 32rem;
-  }
-}
-
 @media (min-width: 48em) {
   .container {
     margin-left: 15rem;
@@ -152,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 14rem;
+  width: 13rem;
   overflow-y: auto;
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
   font-size: .875rem;
