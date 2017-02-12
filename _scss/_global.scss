@@ -253,6 +253,13 @@ img {
         margin-bottom: -.7rem;
     }
 }
+@media (min-width: 320px) {
+    .share {
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
 
 // related post
 .related {
