@@ -129,6 +129,9 @@ img {
     }
     a:hover {
         color: $accent-hover;
+    background: linear-gradient(135deg, $accent-hover 20%, #5F22B7 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
         text-decoration: underline;
     }
 }
