@@ -250,10 +250,10 @@ img {
 .share {
     p {
         font-weight: 700;
-        margin-bottom: -.7rem;
+        margin-bottom: -.8rem;
     }
 }
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     .share {
         p {
             margin-bottom: 0;
