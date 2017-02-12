@@ -55,6 +55,11 @@ $('#fixblock').scroolly([
 
 
 
+// pjax
+
+
+
+
 // scrolljump
 $(function() { 
   $(window).scroll(function() {
