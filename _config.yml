@@ -28,13 +28,13 @@ disqus_shortname:    bigcpa
 jekyll-archives:
   enabled: 
     - tags
-    # - categories
+    - categories
   layouts:
     tag: tag
-    # category: cat
+    category: cat
   permalinks:
     tag: '/tag/:name/'
-    # category: '/cat/:name/'
+    category: '/cat/:name/'
 
 # Navigation (2nd level links supported)
 nav:
@@ -49,7 +49,7 @@ nav:
     Софт и сервисы:
         - '/tag/partner/'
     Linux: 
-        - '/tag/linux/'
+        - '/cat/linux/'
     # Категории:           
     #     - '/cat/'
     #     - { Теги: '/tag/' }
