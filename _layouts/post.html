@@ -27,27 +27,29 @@ layout: default
   {{ content }}
   
     <div class="share">
-        <p>Спасибо за репост!</p>
-        <!--<div class="likely">-->
-        <!--  <div class="vkontakte">Vk</div>-->
-        <!--  <div class="facebook">Fb</div>-->
-        <!--  <div class="twitter">Tw</div>-->
-        <!--  <div class="telegram">Teleg</div>-->
-        <!--  <div class="gplus">G+</div>-->
-        <!--  <div class="pinterest" data-media="i/pinnable.jpg">Pin</div>-->
-        <!--</div>-->
+        <!--<p>Спасибо за репост!</p>-->
+        <div class="likely">
+          <div class="vkontakte">Vk</div>
+          <div class="facebook">Fb</div>
+          <div class="twitter">Tw</div>
+          <div class="telegram">Teleg</div>
+          <div class="gplus">G+</div>
+          <div class="pinterest" data-media="i/pinnable.jpg">Pin</div>
+        </div>
         
-        <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-        <script src="//yastatic.net/share2/share.js"></script>
-        <div class="ya-share2" data-services="vkontakte,facebook,twitter,telegram,gplus,pocket" data-counter=""></div>
+        <!--<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>-->
+        <!--<script src="//yastatic.net/share2/share.js"></script>-->
+        <!--<div class="ya-share2" data-services="vkontakte,facebook,twitter,telegram,gplus,pocket" data-counter=""></div>-->
         
+        
+    </div>
+    
+    <div class="subsc-post">
         <form style="text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=bigcpa', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-
-        <input type="text" placeholder="Введите электронный адрес" name="email"/>
-        <input type="hidden" value="bigcpa" name="uri"/>
-        <input type="hidden" name="loc" value="ru_RU"/>
-        <input class="btn" type="submit" value="Подписаться" />
-        
+            <input class="email" type="text" placeholder="Введите электронный адрес" name="email" required />
+            <input type="hidden" value="bigcpa" name="uri"/>
+            <input type="hidden" name="loc" value="ru_RU"/>
+            <input class="btn" type="submit" value="Подписаться" />
         </form>
     </div>
     
