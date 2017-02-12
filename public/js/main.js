@@ -56,7 +56,7 @@ $('#fixblock').scroolly([
 
 
 // pjax
-$(document).pjax('a', '#pjax-container')
+// $(document).pjax('a', '#pjax-container')
 
 
 
