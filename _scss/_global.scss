@@ -6,11 +6,7 @@ a {
 }
 a:hover,
 a:focus {
-    color: $accent-hover;
     text-decoration: none;
-    background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 img {
