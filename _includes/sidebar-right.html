@@ -21,7 +21,7 @@
     <div class="sidebar-content">
         <ul>
             {% for theCategory in page.categories %} 
-    {% assign popular_posts = site.popular_posts %} 
+    {% assign popular_posts = site.popular_posts | where:"category", theCategory %} 
       {% for page in popular_posts | limit:3 %}
          <li>
          <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
