@@ -49,7 +49,7 @@ nav:
     Софт и сервисы:
         - '/tag/partner/'
     Linux: 
-        - '/cat/linux/'
+        - '/tag/linux/'
     # Категории:           
     #     - '/cat/'
     #     - { Теги: '/tag/' }
