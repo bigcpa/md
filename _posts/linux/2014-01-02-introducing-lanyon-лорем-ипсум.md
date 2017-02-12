@@ -5,7 +5,7 @@ permalink: /blog/intro/
 category: seo
 tags: 
     - linux
-    - test
+    - тег jekyll
 author:
   - name
 comments: true
