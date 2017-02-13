@@ -5,7 +5,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>{{ site.info }}</p>
+    <p>{{ site.info }} Автор: {{ site.author }} <a href="https://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @{{ site.twitter }}</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
   </div>
 
   <nav class="sidebar-nav">
@@ -15,14 +15,11 @@
       {% if is_relative == '/' %}
         {% assign url = nav[1][0] | prepend: site.baseurl %}
       {% endif %}
-
       {% assign sub_len = nav[1] | size | minus: 1 %}
-
       <span class="{% if sub_len > 0 %}foldable{% endif %}">
         <a class="sidebar-nav-item {% if page.url == nav[1][0] %}active{% endif %}" href="{{ url }}">
           {{ nav[0] }}
         </a>
-
         {% for i in (1..sub_len) %}
           {% for sub_nav in nav[1][i] %}
             {% assign sub_is_relative = sub_nav[1] | slice: 0 %}
@@ -36,9 +33,7 @@
           {% endfor %}
         {% endfor %}
       </span>
-
     {% endfor %}
-
   </nav>
 
   <div class="sidebar-item">
