@@ -1,3 +1,21 @@
+// 
+// 
+// 
+// tabs
+(function($) {
+$(function() {
+
+	$('ul.tabs__caption').on('click', 'li:not(.active)', function() {
+		$(this)
+			.addClass('active').siblings().removeClass('active')
+			.closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+	});
+
+});
+})(jQuery);
+
+
+
 // sidebar-toggle
 (function(document) {
 	var toggle = document.querySelector('.sidebar-toggle');
@@ -68,21 +86,6 @@ $(function() {
     $('body,html').animate({scrollTop:0},300);
   });
 });
-
-
-
-// tabs
-(function($) {
-$(function() {
-
-	$('ul.tabs__caption').on('click', 'li:not(.active)', function() {
-		$(this)
-			.addClass('active').siblings().removeClass('active')
-			.closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
-	});
-
-});
-})(jQuery);
 
 
 
