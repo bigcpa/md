@@ -280,6 +280,13 @@ img {
     }
 }
 
+.tabs__content {
+  display: none;
+}
+.tabs__content.active {
+  display: block;
+}
+
 // subsc post
 .subsc-post {
     background-color: #ebeef2;
