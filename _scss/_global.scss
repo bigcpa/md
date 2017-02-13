@@ -286,7 +286,7 @@ img {
     ul {
         list-style-type: none;
         padding: 0;
-        margin-bottom: -1rem;
+        margin: 0;
     }
     li {
         display: inline;
@@ -313,7 +313,6 @@ img {
     background-color: #ebeef2;
     text-align: center;
     padding: 1rem;
-    margin-top: 1rem;
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
