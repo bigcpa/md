@@ -20,9 +20,10 @@
     </div>
     <div class="sidebar-content">
         <h3>Последние записи</h3>
-        <ul class="">
+        <ul class="recent-post">
         {% for post in site.posts limit:5 %}
           <li>
+              {% if post.post_photo_path %}<img class="img-recent" src="{{ post.post_photo_path }}" alt="{{ post.title }}">{% endif %}
               <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           </li>
         {% endfor %}
