@@ -317,6 +317,9 @@ img {
     }
     li {
         display: inline;
+    }
+    .tabs-link {
+        text-decoration: none;
         background-color: #f4f5f9;
         border: 1px solid #ccc;
         border-bottom: none;
@@ -324,11 +327,6 @@ img {
         border-radius: 4px;
         &:hover {
             background-color: $accent;
-        }
-    }
-    .tabs-link {
-        text-decoration: none;
-        &:hover {
             color: $white;
             text-decoration: none;
         } 
