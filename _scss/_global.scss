@@ -99,6 +99,10 @@ img {
 .promo {
     padding: 2rem 1rem;
     background-color: #ebeef2;
+    p {
+        font-size: 2rem;
+        color: $accent;
+    }
 }
 .sidebar-content {
     padding: 2em 1em;
