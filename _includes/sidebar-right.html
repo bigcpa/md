@@ -19,9 +19,9 @@
         </form>
     </div>
     <div class="sidebar-content">
-        <h3>Популярное</h3>
+        <h3>Последние записи</h3>
         <ul class="">
-        {% for post in site.related_posts limit:5 %}
+        {% for post in site.posts limit:5 %}
           <li>
               <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           </li>
