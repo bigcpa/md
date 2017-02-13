@@ -282,7 +282,13 @@ img {
 
 // tabs
 .tabs {
-    border: 1px solid;
+    margin-top: 1rem;
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline;
+    }
 }
 
 // subsc post
