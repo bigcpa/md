@@ -70,7 +70,7 @@
     {% if post.post_photo_path %}
     <meta property="og:image" content="{{ post.post_photo_path }}">
     {% else %}
-    <meta property="og:image" content="{{ site.title }}/public/img/blog.jpg">
+    <meta property="og:image" content="{{ site.url }}/public/img/blog.jpg">
     {% endif %}
     
     {% if page.title == "Home" %}
@@ -86,7 +86,7 @@
     {% if post.post_photo_path %}
     <meta itemprop="image" content="{{ post.post_photo_path }}">
     {% else %}
-    <meta itemprop="image" content="{{ site.title }}/public/img/blog.jpg">
+    <meta itemprop="image" content="{{ site.url }}/public/img/blog.jpg">
     {% endif %}
     
     <meta name="google-site-verification" content="{{ site.google-verification }}" />
