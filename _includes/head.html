@@ -68,7 +68,7 @@
     {% else %}
     <meta property="og:description" content="{{ site.description }}">
     {% endif %}
-    {% if post.post_photo_path %}
+    {% if page.image %}
     <meta property="og:image" content="{{ post.post_photo_path }}">
     {% else %}
     <meta property="og:image" content="{{ site.url }}/public/img/blog.jpg">
@@ -89,7 +89,7 @@
     {% else %}
     <meta itemprop="description" content="{{ site.description }}">
     {% endif %}
-    {% if post.post_photo_path %}
+    {% if page.image %}
     <meta itemprop="image" content="{{ post.post_photo_path }}">
     {% else %}
     <meta itemprop="image" content="{{ site.url }}/public/img/blog.jpg">
