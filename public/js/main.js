@@ -7,7 +7,7 @@ $( function() {
   } );
 // tabs sidebar
 $( function() {
-    $( "#tabs-soc" ).tabs();
+    $( "#tab" ).tabs();
   } );
 
 
