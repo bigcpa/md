@@ -56,6 +56,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
     
     <!--social-->
+    <meta name="twitter:card" content="summary_large_image">
     <meta property="og:type" content="website">
     {% if page.title == "Home" %}
     <meta property="og:title" content="{{ site.title }} &middot; {{ site.tagline }}">
@@ -71,6 +72,11 @@
     <meta property="og:image" content="{{ post.post_photo_path }}">
     {% else %}
     <meta property="og:image" content="{{ site.url }}/public/img/blog.jpg">
+    {% endif %}
+    {% if post.url %}
+    <meta property="og:url" content="{{ post.url }}">
+    {% else %}
+    <meta property="og:url" content="{{ site.url }}">
     {% endif %}
     
     {% if page.title == "Home" %}
@@ -88,6 +94,13 @@
     {% else %}
     <meta itemprop="image" content="{{ site.url }}/public/img/blog.jpg">
     {% endif %}
+    {% if post.url %}
+    <meta itemprop="url" content="{{ post.url }}">
+    {% else %}
+    <meta itemprop="url" content="{{ site.url }}">
+    {% endif %}
+
+<meta property="og:url" content="http://ancient-emu.cloudvent.net/blog/intro/">
     
     <meta name="google-site-verification" content="{{ site.google-verification }}" />
     <meta name="yandex-verification" content="{{ site.yandex-verification }}" />
