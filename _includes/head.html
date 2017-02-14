@@ -1,34 +1,53 @@
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-  <title>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    
+    <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
-  </title>
-  {% if page.description %}
+    </title>
+    {% if page.description %}
     <meta name="description" content="{{ page.description }}">
     {% else %}
     <meta name="description" content="{{ site.description }}">
-  {% endif %}
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.url }}/public/css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/2a93ab338e.css">
-  <link rel="stylesheet" href="{{ site.url }}/public/css/likely.css">
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.url }}/public/favicon.ico">
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+    {% endif %}
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ site.url }}/public/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i|Roboto:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/2a93ab338e.css">
+    <link rel="stylesheet" href="{{ site.url }}/public/css/likely.css">
+    
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.url }}/public/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/public/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/public/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/public/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ site.url }}/public/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.url }}/public/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.url }}/public/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.url }}/public/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/public/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/public/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/public/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/public/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/public/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="{{ site.url }}/public/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="{{ site.url }}/public/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="{{ site.url }}/public/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="{{ site.url }}/public/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="{{ site.url }}/public/favicon/mstile-310x310.png" />
+    <link rel="shortcut icon" href="{{ site.url }}/public/favicon/favicon.ico">
+    
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
