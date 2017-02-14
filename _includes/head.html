@@ -73,8 +73,10 @@
     {% else %}
     <meta property="og:image" content="{{ site.url }}/public/img/blog.jpg">
     {% endif %}
-    {% if post.url %}
+    {% if page.url %}
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    {% else %}
+    <meta property="og:url" content="{{ site.url }}">
     {% endif %}
     
     {% if page.title == "Home" %}
@@ -92,8 +94,8 @@
     {% else %}
     <meta itemprop="image" content="{{ site.url }}/public/img/blog.jpg">
     {% endif %}
-    {% if post.url %}
-    <meta itemprop="url" content="{{ site.url }}{{ post.url }}">
+    {% if page.url %}
+    <meta itemprop="url" content="{{ site.url }}{{ page.url }}">
     {% else %}
     <meta itemprop="url" content="{{ site.url }}">
     {% endif %}
