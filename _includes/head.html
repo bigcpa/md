@@ -93,8 +93,8 @@
     {% else %}
     <meta itemprop="description" content="{{ site.description }}">
     {% endif %}
-    {% if page.image %}
-    <meta itemprop="image" content="{{ post.post_photo_path }}">
+    {% if page.post_photo_path %}
+    <meta itemprop="image" content="{{ page.post_photo_path }}">
     {% else %}
     <meta itemprop="image" content="{{ site.url }}/public/img/blog.jpg">
     {% endif %}
