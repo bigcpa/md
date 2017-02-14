@@ -54,4 +54,52 @@
     <meta name="theme-color" content="#4285f4">
 	<meta name="msapplication-navbutton-color" content="#4285f4">
 	<meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
+    
+    <!--social-->
+    <meta property="og:type" content="website">
+    {% if page.title == "Home" %}
+    <meta property="og:title" content="{{ site.title }} &middot; {{ site.tagline }}">
+    {% else %}
+    <meta property="og:title" content="{{ page.title }} &middot; {{ site.title }}">
+    {% endif %}
+    {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}">
+    {% else %}
+    <meta property="og:description" content="{{ site.description }}">
+    {% endif %}
+    <meta property="og:image" content="https://bigcpa.github.io/images/im3.jpg">
+    
+    {% if page.title == "Home" %}
+    <meta itemprop="name" content="{{ site.title }} &middot; {{ site.tagline }}">
+    {% else %}
+    <meta itemprop="name" content="{{ page.title }} &middot; {{ site.title }}">
+    {% endif %}
+    {% if page.description %}
+    <meta itemprop="description" content="{{ page.description }}">
+    {% else %}
+    <meta itemprop="description" content="{{ site.description }}">
+    {% endif %}
+    <meta itemprop="image" content="https://bigcpa.github.io/images/im3.jpg">
+    
+    <meta name="google-site-verification" content="6GXUozcEfaPdh8Qcr-0qBY2AV8MkL-QoQ66FpbytieM" />
+    <meta name="yandex-verification" content="0454ff3fa7a92182" />
+    <meta name='wmail-verification' content='615e0612a1330fb09470e65c76b774af' />
+    
+    <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=y/goJOnTvjqr/uKyiEPXNSSvVqUJ0AcoUIfupUo8ccfgsnh/AtTkQIMyaqzYA5VRNkBsFEsoL4uxq/NJmBSiDvyDM6HtlhiY7Qt3UZrUwq5bfM14iPcaLEF0L3XjWbcRCMalZ8yw6wuGZbms9GfXIGn/vXwLx9l1zVCVS6dUnwI-&pixel_id=1000065708';</script>
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '797038140412586'); // Insert your pixel ID here.
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=797038140412586&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+    
 </head>
