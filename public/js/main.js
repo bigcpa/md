@@ -1,9 +1,13 @@
 // 
 // 
 // 
-// tabs
+// tabs post
 $( function() {
     $( "#tabs" ).tabs();
+  } );
+// tabs sidebar
+$( function() {
+    $( "#tabs-soc" ).tabs();
   } );
 
 
