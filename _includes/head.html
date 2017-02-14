@@ -67,7 +67,11 @@
     {% else %}
     <meta property="og:description" content="{{ site.description }}">
     {% endif %}
-    <meta property="og:image" content="https://bigcpa.github.io/images/im3.jpg">
+    {% if post.post_photo_path %}
+    <meta property="og:image" content="{{ post.post_photo_path }}">
+    {% else %}
+    <meta property="og:image" content="{{ site.title }}/public/img/blog.jpg">
+    {% endif %}
     
     {% if page.title == "Home" %}
     <meta itemprop="name" content="{{ site.title }} &middot; {{ site.tagline }}">
@@ -79,7 +83,11 @@
     {% else %}
     <meta itemprop="description" content="{{ site.description }}">
     {% endif %}
-    <meta itemprop="image" content="https://bigcpa.github.io/images/im3.jpg">
+    {% if post.post_photo_path %}
+    <meta itemprop="image" content="{{ post.post_photo_path }}">
+    {% else %}
+    <meta itemprop="image" content="{{ site.title }}/public/img/blog.jpg">
+    {% endif %}
     
     <meta name="google-site-verification" content="6GXUozcEfaPdh8Qcr-0qBY2AV8MkL-QoQ66FpbytieM" />
     <meta name="yandex-verification" content="0454ff3fa7a92182" />
