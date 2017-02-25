@@ -45,7 +45,7 @@ img {
 }
 .btn {
     background-color: $accent;
-    color: $white;
+    color: $white !important;
     padding: .5rem 2rem;
     border: 1px solid $accent;
     border-radius: .2rem;
