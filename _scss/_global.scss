@@ -44,13 +44,13 @@ img {
     margin-bottom: 4rem;
 }
 .btn {
-    background-color: rgba($accent, 0.15);
+    background-color: $accent;
     color: $accent;
     padding: .5rem 2rem;
     border: 1px solid $accent;
     border-radius: .2rem;
     &:hover {
-        background-color: $accent !important;
+        background-color: $accent-hover !important;
         color: $white !important;
         text-decoration: none !important;
     }
