@@ -198,6 +198,9 @@ img {
 }
 .post-title {
     margin: 0;
+    a {
+      text-decoration: underline;
+    }
     a:hover {
       text-decoration: none;
     }
