@@ -90,7 +90,7 @@ layout: default
     {% for post in site.related_posts limit:5 %}
       <li>
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> 
-          <small>{% include date.html date=post.date %}</small>
+          <!--<small>{% include date.html date=post.date %}</small>-->
       </li>
     {% endfor %}
   </ul>
