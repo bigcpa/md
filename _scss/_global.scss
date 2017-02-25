@@ -45,10 +45,13 @@ img {
 }
 .btn {
     background-color: $accent;
-    color: $white !important;
-    padding: .5rem 2rem;
+    font-size: .8rem;
+    text-transform: uppercase;
     border: 1px solid $accent;
     border-radius: .2rem;
+    color: $white !important;
+    padding: .5rem 2rem;
+    cursor: pointer;
     &:hover {
         background-color: $accent-hover !important;
         color: $white !important;
